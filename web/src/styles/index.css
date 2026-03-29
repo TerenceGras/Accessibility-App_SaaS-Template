@@ -1,0 +1,406 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    @apply font-sans antialiased;
+  }
+
+  /* Improved focus styles for accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2 dark:ring-offset-gray-900;
+  }
+
+  /* Custom scrollbar for webkit browsers */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-800;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 dark:bg-gray-600 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400 dark:bg-gray-500;
+  }
+
+  /* Selection styling */
+  ::selection {
+    @apply bg-primary-200 dark:bg-primary-800 text-gray-900 dark:text-white;
+  }
+}
+
+@layer components {
+  /* Premium Button Styles */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2
+      bg-gradient-to-r from-primary-500 to-primary-600 
+      hover:from-primary-600 hover:to-primary-700
+      text-white font-semibold 
+      py-3 px-6 rounded-xl 
+      shadow-lg shadow-primary-500/25
+      transition-all duration-200 ease-out
+      hover:shadow-xl hover:shadow-primary-500/30 hover:-translate-y-0.5
+      focus:outline-none focus:ring-4 focus:ring-primary-300 focus:ring-opacity-50 
+      active:scale-[0.98] active:shadow-md
+      disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2
+      bg-white dark:bg-gray-800
+      border border-gray-200 dark:border-gray-700
+      text-gray-700 dark:text-gray-200 font-semibold 
+      py-3 px-6 rounded-xl 
+      shadow-sm
+      transition-all duration-200 ease-out
+      hover:bg-gray-50 dark:hover:bg-gray-700 hover:border-gray-300 dark:hover:border-gray-600
+      hover:shadow-md hover:-translate-y-0.5
+      focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 focus:ring-opacity-50 
+      active:scale-[0.98]
+      disabled:opacity-60 disabled:cursor-not-allowed;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2
+      text-gray-600 dark:text-gray-400 font-medium 
+      py-2 px-4 rounded-lg 
+      transition-all duration-200 ease-out
+      hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-gray-900 dark:hover:text-white
+      focus:outline-none focus:ring-2 focus:ring-gray-300 dark:focus:ring-gray-600
+      active:scale-[0.98];
+  }
+
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-2
+      bg-gradient-to-r from-red-500 to-red-600 
+      hover:from-red-600 hover:to-red-700
+      text-white font-semibold 
+      py-3 px-6 rounded-xl 
+      shadow-lg shadow-red-500/25
+      transition-all duration-200 ease-out
+      hover:shadow-xl hover:shadow-red-500/30 hover:-translate-y-0.5
+      focus:outline-none focus:ring-4 focus:ring-red-300 focus:ring-opacity-50 
+      active:scale-[0.98];
+  }
+  
+  /* Premium Input Styles */
+  .input-field {
+    @apply w-full px-4 py-3 
+      bg-white dark:bg-gray-800
+      border border-gray-200 dark:border-gray-700 
+      rounded-xl 
+      text-gray-900 dark:text-white
+      placeholder-gray-400 dark:placeholder-gray-500
+      shadow-sm
+      transition-all duration-200 ease-out
+      focus:outline-none focus:ring-4 focus:ring-primary-100 dark:focus:ring-primary-900/30 
+      focus:border-primary-400 dark:focus:border-primary-500
+      hover:border-gray-300 dark:hover:border-gray-600;
+  }
+
+  .input-field-error {
+    @apply border-red-300 dark:border-red-600 
+      focus:ring-red-100 dark:focus:ring-red-900/30 
+      focus:border-red-400 dark:focus:border-red-500;
+  }
+
+  /* Premium Card Styles */
+  .card {
+    @apply bg-white dark:bg-gray-800 
+      rounded-2xl 
+      shadow-soft dark:shadow-none
+      border border-gray-100 dark:border-gray-700/50 
+      overflow-hidden
+      transition-all duration-200 ease-out;
+  }
+
+  .card-hover {
+    @apply hover:shadow-soft-lg dark:hover:border-gray-600
+      hover:-translate-y-1 
+      cursor-pointer;
+  }
+
+  .card-interactive {
+    @apply card card-hover
+      focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 
+      dark:focus:ring-offset-gray-900;
+  }
+
+  /* Gradient backgrounds */
+  .bg-gradient-subtle {
+    @apply bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800;
+  }
+
+  .bg-gradient-primary {
+    @apply bg-gradient-to-br from-primary-50 to-primary-100 dark:from-primary-950 dark:to-gray-900;
+  }
+
+  .bg-gradient-hero {
+    @apply bg-gradient-to-br from-primary-50 via-white to-primary-50/50 
+      dark:from-gray-900 dark:via-gray-900 dark:to-primary-950/30;
+  }
+
+  /* Glass effect */
+  .glass {
+    @apply bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl;
+  }
+
+  .glass-card {
+    @apply bg-white/60 dark:bg-gray-800/60 backdrop-blur-lg 
+      border border-white/20 dark:border-gray-700/30;
+  }
+
+  /* Badge styles */
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full 
+      text-xs font-medium transition-colors;
+  }
+
+  .badge-primary {
+    @apply bg-primary-100 text-primary-700 dark:bg-primary-900/30 dark:text-primary-300;
+  }
+
+  .badge-success {
+    @apply bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300;
+  }
+
+  .badge-warning {
+    @apply bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300;
+  }
+
+  .badge-danger {
+    @apply bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300;
+  }
+
+  .badge-gray {
+    @apply bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300;
+  }
+
+  /* Divider */
+  .divider {
+    @apply border-t border-gray-200 dark:border-gray-700/50;
+  }
+
+  /* Section container */
+  .section {
+    @apply py-12 sm:py-16 lg:py-20;
+  }
+
+  /* Prose dark mode support */
+  .prose-dark {
+    @apply prose-invert prose-headings:text-white prose-p:text-gray-300 
+      prose-strong:text-white prose-code:text-primary-300;
+  }
+
+  /* Small screen button classes - for explicit mobile sizing */
+  .btn-mobile-sm {
+    @apply text-xs py-2 px-3;
+  }
+
+  .btn-mobile-md {
+    @apply text-sm py-2.5 px-4;
+  }
+
+  /* Mobile-friendly scan result action buttons */
+  .btn-scan-action {
+    @apply px-3 py-1.5 text-sm font-medium flex items-center space-x-1;
+  }
+
+  @media (max-width: 400px) {
+    .btn-scan-action {
+      @apply px-2 py-1.5 text-xs;
+    }
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ============================================================================
+   SMALL SCREEN RESPONSIVE STYLES
+   Target: Small phones (320px-400px) like V2050, iPhone SE, etc.
+   ============================================================================ */
+
+/* Small screen button adjustments */
+@media (max-width: 400px) {
+  .btn-primary,
+  .btn-secondary,
+  .btn-ghost,
+  .btn-danger {
+    padding: 0.625rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  /* Ensure buttons in forms are full width */
+  form .btn-primary,
+  form .btn-secondary {
+    width: 100%;
+  }
+
+  /* Smaller rounded corners on small screens */
+  .rounded-2xl {
+    border-radius: 0.75rem;
+  }
+
+  .rounded-xl {
+    border-radius: 0.5rem;
+  }
+}
+
+/* Extra small screen adjustments (320px phones) */
+@media (max-width: 360px) {
+  .btn-primary,
+  .btn-secondary,
+  .btn-ghost,
+  .btn-danger {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+  }
+
+  /* Smaller gaps */
+  .gap-4 {
+    gap: 0.75rem;
+  }
+
+  .gap-6 {
+    gap: 1rem;
+  }
+
+  /* Smaller padding */
+  .px-6 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .py-6 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .p-6 {
+    padding: 1rem;
+  }
+
+  /* Smaller text */
+  .text-3xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .text-4xl {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  /* Tighter spacing for cards */
+  .card {
+    padding: 1rem;
+  }
+}
+
+/* Mobile-specific form improvements */
+@media (max-width: 480px) {
+  /* Full width inputs */
+  .input-field {
+    padding: 0.625rem 0.75rem;
+    /* Prevent iOS zoom on focus */
+    font-size: 16px;
+  }
+
+  /* Improve tap targets (minimum 44px) */
+  button,
+  a.btn-primary,
+  a.btn-secondary {
+    min-height: 44px;
+  }
+
+  /* Better checkbox tap targets */
+  input[type="checkbox"] + label,
+  input[type="radio"] + label {
+    padding: 0.5rem;
+  }
+
+  /* Badge adjustments for mobile */
+  .badge {
+    font-size: 0.75rem;
+    padding: 0.125rem 0.5rem;
+  }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  /* Increase button padding for easier touch */
+  .btn-primary,
+  .btn-secondary {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+}
+
+/* Safe area insets for notched phones */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .fixed.bottom-0,
+  .sticky.bottom-0 {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  header,
+  nav {
+    padding-top: env(safe-area-inset-top);
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .btn-primary {
+    border: 2px solid;
+  }
+  
+  .input-field {
+    border-width: 2px;
+  }
+
+  .card {
+    border-width: 2px;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* Hide Stripe test mode badge */
+iframe[src*="stripe.com"][style*="position: fixed"] {
+  display: none !important;
+}
+
+/* Also target Stripe badge by its common attributes in test mode */
+body > iframe[name^="__privateStripe"] {
+  display: none !important;
+}

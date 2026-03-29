@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>LumTrails Web Accessibility Report</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2.5cm 2cm 2.5cm 2cm;
+
+            @bottom-right {
+                content: "Page " counter(page);
+                font-size: 9pt;
+                color: #9ca3af;
+            }
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #1F2937;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Title Page */
+        .title-page {
+            text-align: center;
+            padding-top: 100px;
+            page-break-after: always;
+        }
+
+        .title-logo {
+            margin: 0 auto 40px;
+            height: 80px;
+        }
+
+        .brand-name {
+            font-size: 36pt;
+            font-weight: 700;
+            color: #3ac7f2;
+            margin-bottom: 60px;
+            letter-spacing: -0.5px;
+        }
+
+        .report-type {
+            font-size: 24pt;
+            font-weight: 700;
+            color: #1F2937;
+            margin-bottom: 20px;
+        }
+
+        .scan-url {
+            font-size: 12pt;
+            color: #3ac7f2;
+            word-wrap: break-word;
+            margin: 30px 60px;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+
+        .metadata-box {
+            margin: 40px auto;
+            max-width: 500px;
+            text-align: left;
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 20px 24px;
+        }
+
+        .metadata-row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 6px 0;
+            font-size: 9pt;
+            border-bottom: 1px solid #e5e7eb;
+            align-items: baseline;
+        }
+
+        .metadata-label {
+            font-weight: 600;
+            color: #6b7280;
+            white-space: nowrap;
+            margin-right: 8px;
+        }
+
+        .metadata-row:last-child {
+            border-bottom: none;
+        }
+
+        .metadata-value {
+            color: #1F2937;
+            font-weight: 500;
+            font-size: 8pt;
+            flex: 1;
+        }
+
+        /* Summary Statistics on Title Page */
+        .summary-stats {
+            margin: 20px auto 0;
+            max-width: 100%;
+            width: 550px;
+        }
+
+        .summary-title {
+            font-size: 12pt;
+            font-weight: 700;
+            color: #1F2937;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .stats-grid {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+            margin: 0 auto;
+        }
+
+        .stat-card {
+            display: table-cell;
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 6px;
+            padding: 12px 8px;
+            text-align: center;
+            width: 25%;
+        }
+
+        .stat-card:not(:last-child) {
+            border-right: none;
+        }
+
+        .stat-number {
+            font-size: 20pt;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 7pt;
+            color: #6B7280;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .stat-red {
+            color: #DC2626;
+        }
+
+        .stat-orange {
+            color: #EA580C;
+        }
+
+        .stat-yellow {
+            color: #D97706;
+        }
+
+        .stat-green {
+            color: #059669;
+        }
+
+        .stat-blue {
+            color: #3ac7f2;
+        }
+
+        /* Section Headers */
+        .section-page {
+            padding-top: 20px;
+        }
+
+        .section-header {
+            background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+            border-left: 5px solid #3ac7f2;
+            padding: 20px 24px;
+            margin-bottom: 24px;
+            border-radius: 4px;
+            page-break-after: avoid;
+        }
+
+        .section-icon {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            background: #3ac7f2;
+            border-radius: 6px;
+            margin-right: 16px;
+            vertical-align: middle;
+        }
+
+        .section-title {
+            font-size: 18pt;
+            font-weight: 700;
+            color: #1F2937;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .section-subtitle {
+            font-size: 10pt;
+            color: #6b7280;
+            margin-top: 8px;
+            font-weight: 500;
+        }
+
+        .issue-count {
+            float: right;
+            background: #DC2626;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 10pt;
+            font-weight: 700;
+        }
+
+        .issue-count.success {
+            background: #059669;
+        }
+
+        /* WCAG Violations */
+        .violation-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-left: 4px solid #DC2626;
+            border-radius: 4px;
+            padding: 24px;
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+
+        .violation-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 14px;
+        }
+
+        .violation-title {
+            font-size: 12pt;
+            font-weight: 700;
+            color: #1F2937;
+            flex: 1;
+            padding-right: 12px;
+        }
+
+        .severity-badge {
+            padding: 5px 14px;
+            border-radius: 4px;
+            font-size: 8pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+        }
+
+        .severity-critical {
+            background: #DC2626;
+            color: white;
+        }
+
+        .severity-serious {
+            background: #EA580C;
+            color: white;
+        }
+
+        .severity-moderate {
+            background: #D97706;
+            color: white;
+        }
+
+        .severity-minor {
+            background: #3ac7f2;
+            color: white;
+        }
+
+        .violation-description {
+            color: #4B5563;
+            font-size: 10pt;
+            margin: 12px 0;
+            line-height: 1.7;
+        }
+
+        .help-box {
+            background: #eff6ff;
+            border-left: 3px solid #3ac7f2;
+            padding: 12px 16px;
+            margin: 14px 0;
+            border-radius: 3px;
+        }
+
+        .help-box a {
+            color: #3ac7f2;
+            text-decoration: none;
+            font-size: 9pt;
+            font-weight: 600;
+        }
+
+        .elements-section {
+            border-top: 1px solid #e5e7eb;
+            padding-top: 14px;
+            margin-top: 14px;
+        }
+
+        .elements-label {
+            font-size: 9pt;
+            color: #6B7280;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .element-item {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            padding: 10px 12px;
+            margin-bottom: 8px;
+            font-size: 8pt;
+            border-radius: 3px;
+        }
+
+        .element-target {
+            font-family: 'Courier New', monospace;
+            word-wrap: break-word;
+            margin-bottom: 6px;
+            font-weight: 500;
+            font-size: 7pt;
+            line-height: 1.5;
+        }
+
+        /* Syntax highlighting for CSS selectors */
+        .element-target::before {
+            content: '';
+        }
+
+        /* Color scheme for CSS selector components */
+        .css-tag {
+            color: #0066CC;
+        }
+
+        /* HTML tags - blue */
+        .css-class {
+            color: #6F42C1;
+        }
+
+        /* Classes - purple */
+        .css-id {
+            color: #D73A49;
+        }
+
+        /* IDs - red */
+        .css-attr {
+            color: #22863A;
+        }
+
+        /* Attributes - green */
+        .css-pseudo {
+            color: #005CC5;
+        }
+
+        /* Pseudo-classes - dark blue */
+        .css-combinator {
+            color: #6A737D;
+        }
+
+        /* Combinators - gray */
+        .element-html {
+            color: #4B5563;
+            font-family: 'Courier New', monospace;
+            word-wrap: break-word;
+            font-size: 7pt;
+            line-height: 1.4;
+            white-space: pre-wrap;
+        }
+
+        /* HTML Validation Errors */
+        .html-error-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-left: 4px solid #EA580C;
+            border-radius: 4px;
+            padding: 20px;
+            margin-bottom: 16px;
+            page-break-inside: avoid;
+        }
+
+        .error-message {
+            color: #1F2937;
+            font-size: 10pt;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .error-code {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            padding: 10px;
+            margin: 8px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 8pt;
+            color: #4B5563;
+            border-radius: 3px;
+            overflow-wrap: break-word;
+        }
+
+        .error-location {
+            font-size: 8pt;
+            color: #6B7280;
+            margin-top: 8px;
+        }
+
+        /* Link Health */
+        .link-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-left: 4px solid #D97706;
+            border-radius: 4px;
+            padding: 18px;
+            margin-bottom: 14px;
+            page-break-inside: avoid;
+        }
+
+        .link-url {
+            font-family: 'Courier New', monospace;
+            color: #3ac7f2;
+            font-size: 9pt;
+            word-wrap: break-word;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .link-text {
+            font-size: 9pt;
+            color: #4B5563;
+            margin-bottom: 8px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 3px;
+            font-size: 8pt;
+            font-weight: 700;
+        }
+
+        .status-error {
+            background: #f3f4f6;
+            color: #6B7280;
+        }
+
+        .status-broken {
+            background: #fee2e2;
+            color: #DC2626;
+        }
+
+        /* Success Messages */
+        .success-card {
+            background: #f0fdf4;
+            border: 2px solid #059669;
+            border-radius: 8px;
+            padding: 32px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .success-icon {
+            font-size: 48pt;
+            color: #059669;
+            margin-bottom: 16px;
+        }
+
+        .success-message {
+            font-size: 12pt;
+            color: #059669;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .success-detail {
+            font-size: 9pt;
+            color: #6B7280;
+        }
+
+        /* Accessibility Tree */
+        .tree-container {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 4px;
+            padding: 20px;
+            margin: 16px 0;
+        }
+
+        .tree-description {
+            font-size: 9pt;
+            color: #4B5563;
+            margin-bottom: 14px;
+            line-height: 1.6;
+        }
+
+        .tree-content {
+            background: white;
+            border: 1px solid #e5e7eb;
+            padding: 16px;
+            font-family: 'Courier New', monospace;
+            font-size: 7pt;
+            color: #1F2937;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            border-radius: 3px;
+        }
+
+        /* Layout Testing */
+        .layout-grid {
+            width: 100%;
+            margin: 16px 0;
+        }
+
+        .viewport-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 4px;
+            padding: 18px;
+            margin-bottom: 16px;
+            page-break-inside: avoid;
+        }
+
+        .viewport-size {
+            font-size: 11pt;
+            font-weight: 700;
+            color: #1F2937;
+            margin-bottom: 12px;
+        }
+
+        .viewport-metric {
+            font-size: 9pt;
+            color: #4B5563;
+            margin: 6px 0;
+        }
+
+        .metric-label {
+            font-weight: 600;
+            color: #6B7280;
+        }
+    </style>
+</head>
+
+<body> <!-- Title Page -->
+    <div class="title-page"> <img src="{{ logo }}" alt="LumTrails" class="title-logo">
+        <div class="brand-name">LumTrails</div>
+        <div class="report-type">{{ t.web_scan_report_title }}</div>
+        <div class="scan-url">{{ url }}</div>
+        <div class="metadata-box"> {% if company_info and company_info.company_name %} <div class="metadata-row"> <span class="metadata-label">{{ t.company_name }}:</span> <span class="metadata-value">{{ company_info.company_name }}</span> </div> {% endif %} {% if company_info and company_info.country %} <div class="metadata-row"> <span class="metadata-label">{{ t.country }}:</span> <span class="metadata-value">{{ company_info.country }}</span> </div> {% endif %} {% if timestamp %} <div class="metadata-row"> <span class="metadata-label">{{ t.scan_date }}:</span> <span class="metadata-value">{{ timestamp }}</span> </div> {% endif %} {% if
+            modules_enabled %} <div class="metadata-row"> <span class="metadata-label">{{ t.modules_enabled }}:</span> <span
+                    class="metadata-value">{{ modules_enabled|join(', ') }}</span> </div> {% endif %} </div>
+        <!-- Summary Statistics -->
+        <div class="summary-stats">
+            <div class="summary-title">{{ t.summary }}</div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number stat-{{ 'red' if wcag_violations > 0 else 'green' }}">{{ wcag_violations }}
+                    </div>
+                    <div class="stat-label">{{ t.wcag_violations }}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number stat-{{ 'orange' if html_errors > 0 else 'green' }}">{{ html_errors }}</div>
+                    <div class="stat-label">{{ t.html_errors }}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number stat-{{ 'yellow' if broken_links > 0 else 'green' }}">{{ broken_links }}
+                    </div>
+                    <div class="stat-label">{{ t.broken_links }}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number stat-green">{{ tests_passed }}</div>
+                    <div class="stat-label">{{ t.tests_passed }}</div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- WCAG Compliance Testing (axe) --> {% if has_wcag %} <div
+        style="page-break-before: always; padding-top: 20px;">
+        <div class="section-header"> <span class="section-icon"></span>
+            <div style="display: inline-block; vertical-align: middle;">
+                <div class="section-title">{{ t.wcag_compliance_testing }}</div>
+                <div class="section-subtitle">{{ t.wcag_compliance_subtitle }}</div>
+            </div> <span class="issue-count {{ 'success' if violations|length == 0 else '' }}"> {{ violations|length }}
+                {{ t.issue if violations|length == 1 else t.issues }} </span>
+        </div> {% if violations|length == 0 %} <div class="success-card">
+            <div class="success-icon">✓</div>
+            <div class="success-message">{{ t.no_wcag_violations }}</div>
+            <div class="success-detail">{{ t.wcag_passed_detail }}</div>
+        </div> {% else %} {% for violation in violations %} <div class="violation-card">
+            <div class="violation-header">
+                <div class="violation-title">{{ violation.help or violation.title }}</div> <span
+                    class="severity-badge severity-{{ violation.impact }}">{{ violation.impact }}</span>
+            </div>
+            <div class="violation-description">{{ violation.description }}</div> {% if violation.helpUrl or
+            violation.help_url %} <div class="help-box"> <a href="{{ violation.helpUrl or violation.help_url }}">→ {{ t.learn_how_to_fix }}</a> </div> {% endif %} {% if violation.nodes and violation.nodes|length > 0 %}
+            <div class="elements-section">
+                <div class="elements-label"> {{ t.found_on }} {{ violation.nodes|length }} {{ t.element if violation.nodes|length == 1 else t.elements }}: </div> {% for node in violation.nodes %} <div
+                    class="element-item"> {% if node.target %} <div class="element-target"> {{
+                        highlight_css(node.target[0] if node.target is iterable and node.target is not string else
+                        node.target) | safe }} </div> {% endif %} {% if node.html %} <div class="element-html">{{
+                        node.html | e }}</div> {% endif %} </div> {% endfor %}
+            </div> {% endif %}
+        </div> {% endfor %} {% endif %}
+    </div> {% endif %} <!-- HTML Markup Validation (nu) --> {% if has_html %} <div
+        style="page-break-before: always; padding-top: 20px;">
+        <div class="section-header"> <span class="section-icon"></span>
+            <div style="display: inline-block; vertical-align: middle;">
+                <div class="section-title">{{ t.html_markup_validation }}</div>
+                <div class="section-subtitle">{{ t.html_markup_subtitle }}</div>
+            </div> <span class="issue-count {{ 'success' if html_errors_list|length == 0 else '' }}"> {{
+                html_errors_list|length }} {{ t.error if html_errors_list|length == 1 else t.errors }} </span>
+        </div> {% if html_errors_list|length == 0 %} <div class="success-card">
+            <div class="success-icon">✓</div>
+            <div class="success-message">{{ t.no_html_errors }}</div>
+            <div class="success-detail">{{ t.html_valid_detail }}</div>
+        </div> {% else %} {% for error in html_errors_list %} <div class="html-error-card">
+            <div class="error-message">{{ error.message | e }}</div> {% if error.extract %} <div class="error-code">{{
+                error.extract | e }}</div> {% endif %} {% if error.line %} <div class="error-location">{{ t.line }} {{
+                error.line }}{% if error.column %}, {{ t.column }} {{ error.column }}{% endif %}</div> {% endif %}
+        </div> {% endfor %} {% endif %}
+    </div> {% endif %} <!-- Accessibility Tree Structure (axTree) --> {% if has_tree %} <div
+        style="page-break-before: always; padding-top: 20px;">
+        <div class="section-header"> <span class="section-icon"></span>
+            <div style="display: inline-block; vertical-align: middle;">
+                <div class="section-title">{{ t.accessibility_tree }}</div>
+                <div class="section-subtitle">{{ t.accessibility_tree_subtitle }}</div>
+            </div>
+        </div>
+        <div class="tree-container">
+            <div class="tree-description"> {{ t.accessibility_tree_description }} </div>
+            <div class="tree-content"
+                style="white-space: pre-wrap; font-family: 'Courier New', monospace; font-size: 8pt; line-height: 1.6;">
+                {{ tree_data }}</div>
+        </div>
+    </div> {% endif %} <!-- Responsive Layout Testing (galen) --> {% if has_layout %} <div
+        style="page-break-before: always; padding-top: 20px;">
+        <div class="section-header"> <span class="section-icon"></span>
+            <div style="display: inline-block; vertical-align: middle;">
+                <div class="section-title">{{ t.responsive_layout_testing }}</div>
+                <div class="section-subtitle">{{ t.responsive_layout_subtitle }}</div>
+            </div>
+        </div>
+        <div class="layout-grid"> {% for result in viewport_results %} <div class="viewport-card">
+                <div class="viewport-size">{{ result.viewport.width }} × {{ result.viewport.height }}</div>
+                <div class="viewport-metric"> <span class="metric-label">{{ t.horizontal_scroll }}:</span> {% if
+                    result.metrics.hasHorizontalScroll %}<span style="color: #D97706;">{{ t.yes }} ⚠️</span>{% else %}{{ t.no }} ✓{%
+                    endif %} </div>
+                <div class="viewport-metric"> <span class="metric-label">{{ t.visible_elements }}:</span> {{
+                    result.metrics.elements.visible }} </div>
+                <div class="viewport-metric"> <span class="metric-label">{{ t.hidden_elements }}:</span> {{
+                    result.metrics.elements.hidden }} </div>
+            </div> {% endfor %} </div>
+    </div> {% endif %} <!-- Link Health Check (links) --> {% if has_links %} <div
+        style="page-break-before: always; padding-top: 20px;">
+        <div class="section-header"> <span class="section-icon"></span>
+            <div style="display: inline-block; vertical-align: middle;">
+                <div class="section-title">{{ t.link_health_check }}</div>
+                <div class="section-subtitle">{{ t.link_health_subtitle }}</div>
+            </div> <span
+                class="issue-count {{ 'success' if (broken_links_list|length + connection_issue_links_list|length) == 0 else '' }}">
+                {{ broken_links_list|length + connection_issue_links_list|length }} {{ t.issue if (broken_links_list|length +
+                connection_issue_links_list|length) == 1 else t.issues }} </span>
+        </div> {% if broken_links_list|length == 0 and connection_issue_links_list|length == 0 %} <div class="success-card">
+            <div class="success-icon">✓</div>
+            <div class="success-message">{{ t.all_links_working }}</div>
+            <div class="success-detail">{{ checked_links or 0 }} {{ t.links_checked_successfully }}</div>
+        </div> {% else %} 
+        
+        <!-- Broken Links (HTTP errors) -->
+        {% for link in broken_links_list %} <div class="link-card">
+            <div class="link-url">{{ link.url if link.url is defined else link.get('url', 'Unknown URL') }}</div> {% if
+            link.text %} <div class="link-text">{{ t.link_text }}: "{{ link.text }}"</div> {% endif %}
+            {% if link.error_reason %} <div class="link-error-reason" style="color: #dc2626; font-size: 0.85em; margin-top: 4px;">{{ link.error_reason }}</div> {% endif %}
+            <span class="status-badge status-broken">
+                {{ 'HTTP ' + ((link.status if link.status is defined else link.get('status', 0))|string) if (link.status if link.status is defined else link.get('status', 0)) > 0 else 'Broken' }}
+            </span>
+        </div> {% endfor %}
+        
+        <!-- Connection Issue Links (Timeout/Unreachable) -->
+        {% for link in connection_issue_links_list %} <div class="link-card" style="border-color: #fbbf24;">
+            <div class="link-url">{{ link.url if link.url is defined else link.get('url', 'Unknown URL') }}</div> {% if
+            link.text %} <div class="link-text">{{ t.link_text }}: "{{ link.text }}"</div> {% endif %}
+            {% if link.error_reason %} <div class="link-error-reason" style="color: #d97706; font-size: 0.85em; margin-top: 4px;">{{ link.error_reason }}</div> {% endif %}
+            <span class="status-badge" style="background-color: #fef3c7; color: #92400e;">
+                {{ 'Timeout' if link.state == 'timeout' else 'Unreachable' }}
+            </span>
+        </div> {% endfor %}
+        
+        {% endif %}
+    </div> {% endif %}
+</body>
+
+</html>

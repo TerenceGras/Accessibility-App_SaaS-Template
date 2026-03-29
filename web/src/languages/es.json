@@ -1,0 +1,2457 @@
+﻿{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Se produjo un error",
+    "tryAgain": "Reintentar",
+    "cancel": "Cancelar",
+    "submit": "Enviar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "close": "Cerrar",
+    "view": "Ver",
+    "download": "Descargar",
+    "refresh": "Actualizar",
+    "refreshing": "Actualizando...",
+    "signIn": "Iniciar sesión",
+    "signOut": "Cerrar sesión",
+    "signUp": "Registrarse",
+    "createAccount": "Crear cuenta",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "name": "Nombre",
+    "required": "obligatorio",
+    "optional": "opcional",
+    "available": "Disponible",
+    "yes": "Sí",
+    "no": "No",
+    "or": "o",
+    "and": "y",
+    "all": "Todo",
+    "none": "Ninguno",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "ascending": "Ascendente",
+    "descending": "Descendente",
+    "actions": "Acciones",
+    "settings": "Configuración",
+    "help": "Ayuda",
+    "learnMore": "Más información",
+    "getStarted": "Comenzar",
+    "comingSoon": "Próximamente",
+    "new": "Nuevo",
+    "beta": "Beta",
+    "pro": "Pro",
+    "free": "Gratis",
+    "premium": "Premium",
+    "upgrade": "Mejorar plan",
+    "downgrade": "Reducir plan",
+    "current": "Actual",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "enabled": "Habilitado",
+    "disabled": "Deshabilitado",
+    "connected": "Conectado",
+    "disconnected": "Desconectado",
+    "configure": "Configurar",
+    "connect": "Conectar",
+    "disconnect": "Desconectar",
+    "remove": "Eliminar",
+    "add": "Añadir",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "paste": "Pegar",
+    "select": "Seleccionar",
+    "selectAll": "Seleccionar todo",
+    "deselectAll": "Deseleccionar todo",
+    "clearAll": "Borrar todo",
+    "showMore": "Mostrar más",
+    "showLess": "Mostrar menos",
+    "seeAll": "Ver todo",
+    "viewAll": "Ver todo",
+    "expand": "Expandir",
+    "collapse": "Contraer",
+    "details": "Detalles",
+    "summary": "Resumen",
+    "total": "Total",
+    "count": "Cantidad",
+    "items": "elementos",
+    "of": "de",
+    "page": "Página",
+    "pages": "páginas",
+    "results": "resultados",
+    "noResults": "No se encontraron resultados",
+    "noData": "No hay datos disponibles",
+    "empty": "Vacío",
+    "success": "Éxito",
+    "failed": "Fallido",
+    "pending": "Pendiente",
+    "processing": "Procesando",
+    "completed": "Completado",
+    "inProgress": "En progreso",
+    "warning": "Advertencia",
+    "info": "Información",
+    "confirm": "Confirmar",
+    "continue": "Continuar",
+    "proceed": "Proceder",
+    "done": "Hecho",
+    "finish": "Finalizar",
+    "start": "Iniciar",
+    "stop": "Detener",
+    "pause": "Pausar",
+    "resume": "Reanudar",
+    "retry": "Reintentar",
+    "reset": "Restablecer",
+    "update": "Actualizar",
+    "apply": "Aplicar",
+    "generate": "Generar",
+    "create": "Crear",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "sent": "Enviado",
+    "backToHome": "Volver al inicio",
+    "receive": "Recibir",
+    "received": "Recibido",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "cookiePolicy": "Política de cookies",
+    "pricingPage": "Página de precios",
+    "contactForm": "Formulario de contacto"
+  },
+  "language": {
+    "select": "Idioma",
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "es": "Español",
+    "pt": "Português"
+  },
+  "nav": {
+    "home": "Inicio",
+    "scan": "Escanear",
+    "scanWebsite": "Escanear sitio web",
+    "scanPDF": "Escanear PDF",
+    "myScans": "Mis escaneos",
+    "api": "API",
+    "integrations": "Integraciones",
+    "pricing": "Precios",
+    "profile": "Mi perfil",
+    "contact": "Contacto",
+    "about": "Acerca de",
+    "toggleTheme": "Cambiar tema",
+    "darkMode": "Modo oscuro",
+    "lightMode": "Modo claro",
+    "switchToLightMode": "Cambiar a modo claro",
+    "switchToDarkMode": "Cambiar a modo oscuro",
+    "mainNavigation": "Navegación principal",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "accessibility": "Accesibilidad",
+    "faq": "Preguntas frecuentes"
+  },
+  "footer": {
+    "legal": "Legal",
+    "company": "Empresa",
+    "contact": "Contacto",
+    "affiliates": "Afiliados",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "cookiePolicy": "Política de cookies",
+    "legalNotice": "Aviso legal",
+    "accessibility": "Accesibilidad",
+    "dpa": "DPA",
+    "description": "Escaneo automatizado de accesibilidad para sitios web y documentos PDF. Sigue tu progreso hacia el cumplimiento de la UE.",
+    "wcagCompliant": "WCAG 2.1 AA",
+    "euReady": "Preparado para la Ley de Accesibilidad de la UE",
+    "madeInFrance": "Hecho en Francia",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "copyright": "© {{year}} LumTrails. Todos los derechos reservados.",
+    "disclaimer": "LumTrails proporciona Informes de Mejora de Accesibilidad para ayudarte a seguir el progreso hacia el cumplimiento. El cumplimiento total requiere pruebas manuales y revisión experta.",
+    "faq": "Preguntas frecuentes"
+  },
+  "sidebar": {
+    "home": "Inicio",
+    "scanWebsite": "Escanear sitio web",
+    "scanPDF": "Escanear PDF",
+    "myScans": "Mis escaneos",
+    "integrations": "Integraciones",
+    "api": "API",
+    "pricing": "Precios",
+    "profile": "Perfil",
+    "scans": "Escaneos",
+    "tools": "Herramientas",
+    "account": "Cuenta",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "webCredits": "Créditos web",
+    "pdfCredits": "Créditos PDF",
+    "accessibilityPlatform": "Plataforma de accesibilidad",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "switchToLightMode": "Cambiar a modo claro",
+    "switchToDarkMode": "Cambiar a modo oscuro",
+    "faq": "Preguntas frecuentes"
+  },
+  "billing": {
+    "modal": {
+      "title": "Información de facturación requerida",
+      "description": "Por favor, proporcione su información de facturación antes de proceder al pago. Esta información se utilizará para la facturación.",
+      "business": "Empresa (B2B)",
+      "individual": "Particular (B2C)",
+      "companyName": "Nombre de la empresa",
+      "vatNumber": "Número de IVA (opcional)",
+      "fullName": "Nombre completo",
+      "addressLine1": "Dirección línea 1",
+      "addressLine2": "Dirección línea 2 (opcional)",
+      "city": "Ciudad",
+      "postalCode": "Código postal",
+      "country": "País",
+      "cancel": "Cancelar",
+      "continue": "Continuar al pago",
+      "saving": "Guardando...",
+      "companyRequired": "El nombre de la empresa es obligatorio",
+      "nameRequired": "El nombre completo es obligatorio",
+      "addressRequired": "Por favor, complete todos los campos de dirección requeridos",
+      "saveSuccess": "Información de facturación guardada correctamente",
+      "saveFailed": "Error al guardar la información de facturación"
+    }
+  },
+  "auth": {
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse",
+    "signOut": "Cerrar sesión",
+    "signInToContinue": "Inicia sesión para continuar",
+    "signInToAccess": "Por favor, inicia sesión para acceder a {{feature}}",
+    "createAccount": "Crear cuenta",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "dontHaveAccount": "¿No tienes una cuenta?",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "resetPassword": "Restablecer contraseña",
+    "sendResetEmail": "Enviar correo de restablecimiento",
+    "backToSignIn": "Volver a iniciar sesión",
+    "continueWithGoogle": "Continuar con Google",
+    "orContinueWith": "O continuar con",
+    "or": "o",
+    "emailAddress": "Dirección de correo electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "displayName": "Nombre para mostrar",
+    "fullName": "Nombre completo",
+    "rememberMe": "Recordarme",
+    "loginRequired": "Inicio de sesión requerido",
+    "authenticationRequired": "Autenticación requerida",
+    "pleaseLogIn": "Por favor, inicia sesión para realizar {{action}}",
+    "accessRestricted": "Acceso restringido a cuentas autorizadas en entorno DEV",
+    "accessDenied": "Acceso denegado",
+    "invalidCredentials": "Correo electrónico o contraseña inválidos",
+    "emailAlreadyExists": "Ya existe una cuenta con este correo electrónico",
+    "weakPassword": "La contraseña debe tener al menos 6 caracteres",
+    "invalidEmail": "Dirección de correo electrónico inválida",
+    "userNotFound": "No se encontró ninguna cuenta con este correo electrónico",
+    "wrongPassword": "Contraseña incorrecta",
+    "tooManyRequests": "Demasiados intentos fallidos. Inténtalo más tarde.",
+    "signInCancelled": "Inicio de sesión cancelado",
+    "popupBlocked": "Por favor, permite las ventanas emergentes para este sitio",
+    "accountExistsWithDifferentCredential": "Ya existe una cuenta con este correo electrónico usando un método de inicio de sesión diferente",
+    "enterYourEmail": "Introduce tu correo electrónico",
+    "enterYourPassword": "Introduce tu contraseña",
+    "enterYourFullName": "Introduce tu nombre completo",
+    "confirmYourPassword": "Confirma tu contraseña",
+    "passwordsDoNotMatch": "Las contraseñas no coinciden",
+    "passwordResetSent": "¡Correo de restablecimiento de contraseña enviado! Revisa tu bandeja de entrada.",
+    "signingOut": "Cerrando sesión...",
+    "viewProfile": "Ver perfil",
+    "verified": "Verificado",
+    "unverified": "No verificado",
+    "memberSince": "Miembro desde:",
+    "termsAgreement": "Al registrarte, aceptas nuestros",
+    "termsOfService": "Términos de servicio",
+    "privacyPolicy": "Política de privacidad",
+    "passwordRequirements": {
+      "title": "Requisitos de contraseña",
+      "minLength": "Al menos 8 caracteres",
+      "uppercase": "Una letra mayúscula",
+      "lowercase": "Una letra minúscula",
+      "number": "Un número",
+      "symbol": "Un símbolo (!@#$%^&*)"
+    },
+    "verification": {
+      "title": "Verifica tu correo electrónico",
+      "subtitle": "Hemos enviado un código de 6 dígitos a",
+      "verify": "Verificar correo",
+      "verifying": "Verificando...",
+      "success": "¡Correo verificado!",
+      "redirecting": "Redirigiendo al inicio de sesión...",
+      "noCode": "¿No recibiste el código?",
+      "resend": "Reenviar código",
+      "resendIn": "Reenviar en",
+      "sending": "Enviando...",
+      "expiry": "El código expira en 15 minutos",
+      "invalidCode": "Por favor ingresa el código completo de 6 dígitos",
+      "verificationFailed": "Verificación fallida. Por favor intenta de nuevo.",
+      "resendFailed": "No se pudo reenviar el código",
+      "networkError": "Error de red. Por favor intenta de nuevo.",
+      "checkEmail": "Por favor revisa tu correo para verificar tu cuenta",
+      "emailSent": "¡Correo de verificación enviado!"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Informes de Mejora de Accesibilidad",
+      "titleHighlight": "para Web y PDF",
+      "subtitle": "La plataforma automatizada de pruebas de accesibilidad para equipos de desarrollo.",
+      "subtitlePart2": "escanea sitios web y PDF, corrige violaciones WCAG rápidamente y genera",
+      "subtitlePart3": "para auditorías de cumplimiento de la UE.",
+      "subtitleHighlight1": "Aumenta el tráfico",
+      "subtitleHighlight2": "Informes de Mejora de Accesibilidad",
+      "description": "escanea sitios web y PDF, corrige violaciones WCAG rápidamente y genera {{reports}} para auditorías de cumplimiento de la UE.",
+      "ctaScanWebsite": "Escanear sitio web",
+      "ctaScanPDF": "Escanear PDF",
+      "wcagCompliant": "Conforme con WCAG 2.1 AA",
+      "euReady": "Preparado para la Ley de Accesibilidad de la UE",
+      "srWebScan": "Navegar a la página de escaneo para generar un informe de mejora de accesibilidad para tu sitio web",
+      "srPDFScan": "Navegar a la página de escaneo de PDF para generar un informe de mejora de accesibilidad para tus documentos PDF"
+    },
+    "seo": {
+      "badge": "Beneficios SEO",
+      "title": "Aumenta el tráfico y optimiza el SEO",
+      "description": "La accesibilidad web no se trata solo de cumplimiento—es una estrategia SEO poderosa. Estudios recientes muestran que los sitios web accesibles superan significativamente a sus competidores no conformes en los rankings de búsqueda.",
+      "study1": {
+        "title": "Los sitios conformes con WCAG ganan más tráfico",
+        "stat": "+23%",
+        "statLabel": "Tráfico orgánico",
+        "description": "Un estudio exhaustivo que analizó 10,000 sitios web encontró que los sitios conformes con WCAG ganaron {{traffic}} más de tráfico orgánico y se posicionaron para {{keywords}} más palabras clave. Mientras tanto, los sitios no conformes perdieron 20-30% del tráfico hacia herramientas de búsqueda con IA, ya que los agentes de IA necesitan estructuras accesibles para analizar el contenido eficazmente.",
+        "link": "Leer el estudio completo"
+      },
+      "study2": {
+        "title": "El algoritmo de Google recompensa la accesibilidad",
+        "stat": "+37%",
+        "statLabel": "Tráfico de búsqueda",
+        "description": "La investigación sobre las actualizaciones del algoritmo de Google de 2025 muestra que los sitios web accesibles pueden atraer hasta {{traffic}} más de tráfico de los motores de búsqueda. La superposición entre las funciones de accesibilidad y Core Web Vitals significa que cada mejora de accesibilidad también fortalece tu base de SEO.",
+        "link": "Leer el estudio completo"
+      },
+      "insights": {
+        "coreWebVitals": {
+          "title": "Mejores Core Web Vitals",
+          "description": "El código accesible es más limpio y rápido, mejorando las puntuaciones de LCP, FID y CLS que Google usa para el ranking."
+        },
+        "aiSearch": {
+          "title": "Preparado para búsqueda con IA",
+          "description": "Los agentes de IA analizan los sitios como los lectores de pantalla. Una estructura accesible significa mejor visibilidad en la búsqueda con IA."
+        },
+        "bounceRates": {
+          "title": "Menores tasas de rebote",
+          "description": "Los sitios accesibles eliminan barreras que hacen que los visitantes se vayan, enviando señales de participación positivas a Google."
+        }
+      }
+    },
+    "features": {
+      "badge": "Herramientas de pruebas de accesibilidad",
+      "title": "Todo lo que tu equipo necesita para lanzar productos accesibles",
+      "description": "Desde escaneo automatizado WCAG hasta integraciones de flujo de trabajo, LumTrails optimiza las pruebas de accesibilidad para equipos de desarrollo modernos.",
+      "webScanning": {
+        "title": "Escaneo web multi-motor",
+        "description": "Pruebas exhaustivas de WCAG 2.1 con axe-core, Nu HTML Checker, análisis axtree, pruebas de diseño Galen y validación de enlaces—todo en un escaneo."
+      },
+      "pdfAnalysis": {
+        "title": "Análisis de PDF con IA",
+        "description": "Escaneo avanzado de accesibilidad de PDF usando análisis de visión GPT. Detecta texto alternativo faltante, problemas de orden de lectura y problemas de estructura del documento."
+      },
+      "api": {
+        "title": "API orientada a desarrolladores",
+        "description": "API RESTful para integración perfecta en CI/CD. Automatiza las pruebas de accesibilidad en tu pipeline de despliegue y corrige violaciones directamente desde los resultados del escaneo."
+      },
+      "integrations": {
+        "title": "Integraciones de flujo de trabajo",
+        "description": "Envía los resultados del escaneo directamente a GitHub Issues, canales de Slack o páginas de Notion. Mantén a tu equipo informado sin salir de tus herramientas existentes."
+      },
+      "euCompliance": {
+        "title": "Preparado para la Ley de Accesibilidad de la UE",
+        "description": "Genera Informes de Mejora de Accesibilidad e itera hacia el cumplimiento de la Ley Europea de Accesibilidad con información práctica."
+      },
+      "progressTracking": {
+        "title": "Seguimiento del progreso",
+        "description": "Compara escaneos a lo largo del tiempo para medir tus mejoras de accesibilidad. Muestra a las partes interesadas el progreso concreto con datos históricos."
+      }
+    },
+    "legal": {
+      "badge": "Ley de Accesibilidad de la UE",
+      "title": "Mantente por delante de las regulaciones de accesibilidad",
+      "description": "La Ley Europea de Accesibilidad ya está en vigor. Las pruebas proactivas de accesibilidad te ayudan a evitar multas de hasta {{fine}} y a crear mejores productos para todos.",
+      "cards": {
+        "eaa2025": {
+          "title": "Ley Europea de Accesibilidad 2025",
+          "description": "Desde junio de 2025, los sitios web y productos digitales deben ser accesibles. LumTrails ayuda a los equipos de desarrollo a identificar y corregir rápidamente las violaciones de WCAG antes de las auditorías."
+        },
+        "improvement": {
+          "title": "Demuestra mejora continua",
+          "description": "Los escaneos regulares de accesibilidad y los informes de mejora muestran a los auditores tu compromiso continuo con el cumplimiento—incluso mientras trabajas hacia la conformidad total."
+        },
+        "wcag": {
+          "title": "Cobertura WCAG 2.1 Nivel AA",
+          "description": "Nuestro escaneo multi-motor cubre los criterios de éxito de WCAG en los principios perceptible, operable, comprensible y robusto con recomendaciones de corrección prácticas."
+        },
+        "developer": {
+          "title": "Diseñado para flujos de trabajo de desarrolladores",
+          "description": "El diseño API-first significa que puedes integrar las pruebas de accesibilidad en pipelines CI/CD, automatizar la creación de issues y hacer seguimiento de correcciones a través de sprints."
+        }
+      }
+    },
+    "integrations": {
+      "badge": "Automatización de flujo de trabajo",
+      "title": "Integra con tus herramientas favoritas",
+      "description": "Envía automáticamente los resultados de escaneo de accesibilidad de escaneos web y PDF directamente a tus flujos de trabajo existentes. Sin copiar y pegar manualmente.",
+      "github": {
+        "name": "GitHub",
+        "description": "Crea automáticamente GitHub Issues cuando se encuentran problemas de accesibilidad. Haz seguimiento y asigna correcciones directamente en tu flujo de trabajo de desarrollo.",
+        "feature1": "Creación automática de issues",
+        "feature2": "Etiquetas de severidad",
+        "feature3": "Selección de repositorio"
+      },
+      "slack": {
+        "name": "Slack",
+        "description": "Recibe notificaciones instantáneas en tus canales de Slack. Mantén a tu equipo informado sobre problemas de accesibilidad tan pronto como se detecten.",
+        "feature1": "Alertas en tiempo real",
+        "feature2": "Enrutamiento de canales",
+        "feature3": "Filtrado por severidad"
+      },
+      "notion": {
+        "name": "Notion",
+        "description": "Crea automáticamente páginas en tu espacio de trabajo de Notion con resultados detallados del escaneo. Organiza la documentación de accesibilidad sin esfuerzo.",
+        "feature1": "Creación automática de páginas",
+        "feature2": "Datos estructurados",
+        "feature3": "Selección de página padre"
+      },
+      "configureLink": "Configurar integraciones"
+    },
+    "cta": {
+      "title": "¿Listo para automatizar tus pruebas de accesibilidad?",
+      "description": "Comienza con un escaneo gratuito, explora la API o mejora tu plan para escaneos ilimitados e integraciones de flujo de trabajo.",
+      "tryFreeScan": "Probar escaneo gratuito",
+      "viewApiDocs": "Ver documentación de API"
+    }
+  },
+  "webScan": {
+    "title": "Escanea tu sitio web",
+    "description": "Ingresa la URL de tu sitio web para verificar problemas de accesibilidad y asegurar el cumplimiento de la UE",
+    "urlLabel": "URL del sitio web",
+    "urlPlaceholder": "https://ejemplo.com",
+    "urlHelp": "Asegúrate de incluir la URL completa con https://",
+    "startScan": "Iniciar escaneo de accesibilidad",
+    "scanning": "Escaneando...",
+    "scanQueued": "¡Escaneo en cola exitosamente!",
+    "scanCompleted": "¡Escaneo completado!",
+    "creditsPerModule": "1 crédito por módulo",
+    "modules": {
+      "title": "Seleccionar módulos de escaneo",
+      "creditNote": "(1 crédito por módulo)",
+      "selected": "{{count}} de {{total}} módulos seleccionados",
+      "cost": "Costo: {{count}} crédito{{plural}}",
+      "axe": {
+        "name": "Pruebas de cumplimiento WCAG",
+        "description": "Verificaciones exhaustivas de reglas de accesibilidad"
+      },
+      "nu": {
+        "name": "Validación de marcado HTML",
+        "description": "Validación HTML del W3C"
+      },
+      "axTree": {
+        "name": "Análisis del árbol de accesibilidad",
+        "description": "Verificación de compatibilidad con lector de pantalla"
+      },
+      "galen": {
+        "name": "Pruebas de diseño responsivo",
+        "description": "Pruebas visuales y de diseño"
+      },
+      "links": {
+        "name": "Verificación de salud de enlaces",
+        "description": "Detección de enlaces rotos"
+      }
+    },
+    "progress": {
+      "title": "Escaneando tu sitio web...",
+      "description": "Esto puede tardar unos momentos mientras analizamos tu sitio web en busca de problemas de accesibilidad.",
+      "runningTests": "Ejecutando pruebas WCAG",
+      "analyzingContent": "Analizando contenido"
+    },
+    "scanningProgress": {
+      "title": "Escaneando tu sitio web...",
+      "description": "Esto puede tardar unos momentos mientras analizamos tu sitio web en busca de problemas de accesibilidad.",
+      "wcagTests": "Ejecutando pruebas WCAG",
+      "analyzingContent": "Analizando contenido"
+    },
+    "loginToAccess": "Por favor, inicia sesión para acceder al escáner de sitios web",
+    "loginDescription": "El escaneo está disponible para usuarios registrados. Inicia sesión para hacer seguimiento de tu historial de escaneo y acceder a todas las funciones.",
+    "info": {
+      "wcag": {
+        "title": "WCAG 2.1 AA",
+        "description": "Pruebas contra las directrices de accesibilidad"
+      },
+      "issues": {
+        "title": "Detección de problemas",
+        "description": "Identifica violaciones de accesibilidad"
+      },
+      "quick": {
+        "title": "Resultados rápidos",
+        "description": "Obtén resultados en minutos"
+      }
+    },
+    "errors": {
+      "enterUrl": "Por favor, ingresa una URL",
+      "invalidUrl": "Por favor, ingresa una URL válida (incluyendo https://)",
+      "loginRequired": "Por favor, inicia sesión para realizar escaneos",
+      "selectModule": "Por favor, selecciona al menos un módulo de escaneo",
+      "scanFailed": "El escaneo falló. Por favor, inténtalo de nuevo.",
+      "scanTimeout": "El escaneo expiró. Por favor, inténtalo de nuevo."
+    },
+    "loginRequired": {
+      "title": "Inicio de sesión requerido",
+      "description": "Por favor, inicia sesión para acceder al escáner de sitios web",
+      "info": "El escaneo está disponible para usuarios registrados. Inicia sesión para hacer seguimiento de tu historial de escaneo y acceder a todas las funciones."
+    },
+    "generatingPdf": "Generando informe PDF...",
+    "pdfDownloadSuccess": "¡Informe PDF descargado exitosamente!",
+    "pdfDownloadError": "Error al descargar el informe. Por favor, inténtalo de nuevo.",
+    "noResultsAvailable": "No hay resultados de escaneo disponibles.",
+    "backToScans": "Volver a escaneos",
+    "toasts": {
+      "scanCompleted": "¡Escaneo completado!",
+      "scanQueued": "¡Escaneo en cola exitosamente!",
+      "scanTimeout": "El escaneo expiró. Por favor, inténtalo de nuevo.",
+      "scanFailed": "El escaneo falló. Por favor, inténtalo de nuevo.",
+      "selectModule": "Por favor, selecciona al menos un módulo de escaneo",
+      "insufficientCredits": "Créditos insuficientes. Por favor, mejora tu suscripción para obtener más créditos."
+    },
+    "results": {
+      "backToMyScans": "Volver a mis escaneos",
+      "downloadReport": "Descargar informe",
+      "generating": "Generando...",
+      "title": "Resultados completos del escaneo de accesibilidad",
+      "scannedOn": "Escaneado el {{date}}",
+      "horizontalScroll": "Desplazamiento horizontal:",
+      "yes": "Sí ⚠️",
+      "no": "No ✓",
+      "visibleElements": "Elementos visibles:",
+      "hiddenElements": "Elementos ocultos:",
+      "runAnotherScan": "Ejecutar otro escaneo",
+      "lineColumn": "Línea {{line}}, Columna {{column}}",
+      "linksChecked": "{{count}} enlaces verificados",
+      "linkText": "Texto del enlace: \"{{text}}\"",
+      "error": "Error",
+      "httpStatus": "HTTP {{status}}",
+      "accessibilityTreeDescription": "El árbol de accesibilidad muestra cómo los lectores de pantalla y otras tecnologías de asistencia interpretan la estructura de tu página.",
+      "sections": {
+        "wcag": {
+          "title": "Pruebas de cumplimiento WCAG",
+          "subtitle": "Violaciones WCAG a nivel de elemento detectadas por pruebas automatizadas",
+          "noViolations": "¡No se detectaron violaciones WCAG!"
+        },
+        "html": {
+          "title": "Validación de marcado HTML",
+          "subtitle": "Verificación de conformidad HTML5 y ARIA",
+          "noErrors": "¡No hay errores de validación HTML!"
+        },
+        "links": {
+          "title": "Verificación de salud de enlaces",
+          "subtitle": "Enlaces rotos y problemas de navegación",
+          "allWorking": "¡Todos los enlaces verificados funcionan correctamente!"
+        },
+        "tree": {
+          "title": "Estructura del árbol de accesibilidad",
+          "subtitle": "Cómo las tecnologías de asistencia ven tu página"
+        },
+        "layout": {
+          "title": "Pruebas de diseño responsivo",
+          "subtitle": "Diseño visual en diferentes tamaños de ventana"
+        }
+      }
+    }
+  },
+  "pdfScan": {
+    "title": "Escáner de accesibilidad de PDF",
+    "description": "Sube tu PDF para un análisis de accesibilidad con IA y asegura el cumplimiento de WCAG 2.1 AA",
+    "uploadTitle": "Subir documento PDF",
+    "creditNote": "1 crédito por página",
+    "creditsPerPage": "1 crédito por página",
+    "dropzone": {
+      "title": "Arrastra tu archivo PDF aquí o haz clic para explorar",
+      "maxSize": "Tamaño máximo de archivo: 50MB",
+      "selectFile": "Seleccionar archivo PDF"
+    },
+    "fileSelected": {
+      "size": "Tamaño: {{size}}",
+      "remove": "Eliminar archivo"
+    },
+    "startScan": "Escanear PDF para accesibilidad",
+    "scanning": "Escaneando PDF...",
+    "scanQueued": "¡Escaneo de PDF en cola exitosamente!",
+    "scanCompleted": "¡Escaneo de PDF completado!",
+    "progress": {
+      "title": "Escaneando {{filename}}",
+      "description": "Tu PDF está siendo analizado con IA para detectar problemas de accesibilidad..."
+    },
+    "aiInfo": {
+      "title": "Análisis con IA",
+      "description": "Nuestra tecnología avanzada de visión con IA analiza tu PDF para un cumplimiento integral de accesibilidad, proporcionando información detallada sobre estructura, contenido y elementos visuales."
+    },
+    "errors": {
+      "selectFile": "Por favor, selecciona un archivo PDF",
+      "pdfOnly": "Solo se permiten archivos PDF",
+      "maxSize": "El tamaño del archivo debe ser menor a 50MB",
+      "loginRequired": "Por favor, inicia sesión para escanear tus documentos PDF en busca de problemas de accesibilidad.",
+      "scanFailed": "El escaneo del PDF falló. Por favor, inténtalo de nuevo."
+    },
+    "loginRequired": {
+      "title": "Autenticación requerida",
+      "description": "Por favor, inicia sesión para escanear tus documentos PDF en busca de problemas de accesibilidad.",
+      "signIn": "Iniciar sesión para escanear"
+    },
+    "generatingReport": "Generando informe PDF...",
+    "downloadSuccess": "¡Informe PDF descargado exitosamente!",
+    "downloadError": "Error al generar el informe PDF. Por favor, inténtalo de nuevo.",
+    "results": {
+      "noResultsAvailable": "No hay resultados de escaneo disponibles.",
+      "backToScans": "Volver a escaneos",
+      "backToMyScans": "← Volver a mis escaneos",
+      "downloadPdfReport": "Descargar informe PDF",
+      "title": "Análisis de accesibilidad de PDF",
+      "analyzedFor": "Análisis de accesibilidad con IA para:",
+      "analyzedOn": "Analizado el {{date}}",
+      "gptAnalysisTitle": "Análisis de accesibilidad con GPT-5 Vision"
+    },
+    "toasts": {
+      "scanCompleted": "¡Escaneo de PDF completado!",
+      "scanQueued": "¡Escaneo de PDF en cola exitosamente!",
+      "scanTimeout": "El escaneo de PDF expiró",
+      "scanFailed": "El escaneo de PDF falló: {{message}}",
+      "insufficientCredits": "Créditos insuficientes. Por favor, mejora tu suscripción para obtener más créditos."
+    }
+  },
+  "myScans": {
+    "title": "Mis escaneos",
+    "description": "Ver y gestionar los resultados de tus escaneos de accesibilidad",
+    "websiteScans": "Escaneos de sitios web",
+    "pdfScans": "Escaneos de PDF",
+    "noWebScans": "Sin escaneos de sitios web todavía",
+    "noPdfScans": "Sin escaneos de PDF todavía",
+    "startWebScan": "Comienza escaneando tu primer sitio web para detectar problemas de accesibilidad.",
+    "startPdfScan": "Comienza escaneando tu primer documento PDF para detectar problemas de accesibilidad.",
+    "scanWebsite": "Escanear un sitio web",
+    "scanPdf": "Escanear un PDF",
+    "aiAnalysisComplete": "Análisis con IA completado",
+    "aiDone": "IA completada",
+    "pages": "páginas",
+    "allClean": "Todo limpio",
+    "passed": "Aprobado",
+    "issues": "Problemas",
+    "websiteSummary": "Resumen del escaneo de sitio web",
+    "pdfSummary": "Resumen del escaneo de PDF",
+    "totalScans": "Total de escaneos",
+    "totalIssues": "Total de problemas",
+    "testsPassed": "Pruebas aprobadas",
+    "loadingDetails": "Cargando detalles del escaneo...",
+    "loginRequired": "Inicio de sesión requerido",
+    "signInToView": "Por favor, inicia sesión para ver tu historial de escaneos",
+    "historyPrivate": "Tu historial de escaneos es privado. Inicia sesión para acceder a tus resultados de escaneo de accesibilidad guardados.",
+    "signInToContinue": "Iniciar sesión para continuar",
+    "pdfDownloadSuccess": "¡Informe PDF descargado exitosamente!",
+    "pdfDownloadError": "Error al generar el informe PDF. Por favor, inténtalo de nuevo.",
+    "deleteSuccess": "Escaneo eliminado exitosamente",
+    "deleteError": "Error al eliminar el escaneo. Por favor, inténtalo de nuevo.",
+    "downloadPdfReportTitle": "Descargar informe PDF",
+    "deleteScanTitle": "Eliminar escaneo",
+    "deleteModal": {
+      "title": "Eliminar escaneo",
+      "confirmMessage": "¿Estás seguro de que quieres eliminar este {{type}}? Esta acción es permanente.",
+      "warning": "Esta acción no se puede deshacer. Los resultados del escaneo se eliminarán permanentemente.",
+      "typeToConfirm": "Escribe",
+      "toConfirm": "para confirmar:",
+      "confirmWord": "eliminar",
+      "confirm": "Eliminar escaneo",
+      "cancel": "Cancelar",
+      "deleting": "Eliminando...",
+      "deletePermanently": "Eliminar permanentemente"
+    },
+    "toasts": {
+      "loadWebScansFailed": "Error al cargar los escaneos web",
+      "loadPdfScansFailed": "Error al cargar los escaneos de PDF",
+      "loadDetailsFailed": "Error al cargar los detalles del escaneo. Por favor, inténtalo de nuevo."
+    }
+  },
+  "integrations": {
+    "title": "Integraciones",
+    "description": "Conecta tus herramientas para recibir automáticamente los resultados de escaneo de accesibilidad",
+    "signInToAccess": "Por favor, inicia sesión para acceder a las integraciones.",
+    "paidRequired": {
+      "title": "Las integraciones requieren una suscripción de pago",
+      "description": "Conecta GitHub, Slack y Notion para enviar automáticamente los resultados de escaneo a tu flujo de trabajo. Mejora a Standard o Business para desbloquear las integraciones.",
+      "viewPlans": "Ver planes y mejorar"
+    },
+    "intro": {
+      "title": "Automatiza tu flujo de trabajo de accesibilidad",
+      "description": "Conecta LumTrails a tus herramientas favoritas y envía automáticamente los resultados de escaneo al flujo de trabajo de tu equipo. Configura una vez, recibe actualizaciones en cada escaneo."
+    },
+    "github": {
+      "name": "GitHub",
+      "description": "Crea automáticamente issues en tus repositorios cuando se encuentran problemas de accesibilidad",
+      "connected": "Conectado como",
+      "notConnected": "Conecta tu cuenta de GitHub para crear issues automáticamente",
+      "repository": "Repositorio",
+      "selectRepository": "Selecciona un repositorio...",
+      "loadRepositories": "Cargar repositorios",
+      "label": "Etiqueta del issue",
+      "webScanDesc": "Cuando está habilitado, los resultados del escaneo web crearán automáticamente issues en GitHub",
+      "pdfScanDesc": "Cuando está habilitado, los resultados del escaneo de PDF crearán automáticamente issues en GitHub",
+      "disconnectTitle": "Desconectar integración de GitHub",
+      "disconnectMessage": "¿Estás seguro de que deseas desconectar tu integración de GitHub? Esto eliminará todos los tokens de autorización y restablecerá tu configuración de GitHub. Necesitarás reconectar y reconfigurar si quieres usar la integración de GitHub de nuevo.",
+      "configuration": "Configuración de GitHub",
+      "howItWorksDesc": "Cuando ejecutas un escaneo de accesibilidad, LumTrails creará automáticamente issues de GitHub en tu repositorio seleccionado. Cada violación de accesibilidad se convierte en un issue rastreable con información detallada y enlaces a documentación relevante.",
+      "repositoryHelp": "Los issues se crearán en este repositorio cuando los escaneos encuentren problemas de accesibilidad",
+      "enableWebScan": "Habilitar integración automática de GitHub para resultados de escaneo web",
+      "whenDisabledWeb": "Cuando está deshabilitado, no se crearán issues para escaneos web",
+      "enablePdfScan": "Habilitar integración automática de GitHub para resultados de escaneo de PDF",
+      "whenDisabledPdf": "Cuando está deshabilitado, no se crearán issues para escaneos de PDF",
+      "private": "(Privado)",
+      "public": "(Público)",
+      "accountManagementDesc": "Si necesitas conectar repositorios de una cuenta de GitHub diferente, puedes desconectar tu cuenta actual y reconectar después."
+    },
+    "notion": {
+      "name": "Notion",
+      "description": "Crea automáticamente páginas en tu espacio de trabajo de Notion cuando se encuentran problemas de accesibilidad",
+      "connected": "Conectado a {{workspace}}",
+      "connectedDefault": "Conectado al espacio de trabajo de Notion",
+      "notConnected": "Conecta tu espacio de trabajo de Notion para crear páginas automáticamente",
+      "parentPageUrl": "URL de la página padre",
+      "parentPagePlaceholder": "https://www.notion.so/workspace/page-title-xxx",
+      "parentPageHelp": "Las nuevas páginas con resultados de escaneo se crearán como hijas de esta página",
+      "webScanDesc": "Cuando está habilitado, los resultados del escaneo web crearán automáticamente páginas en Notion",
+      "pdfScanDesc": "Cuando está habilitado, los resultados del escaneo de PDF crearán automáticamente páginas en Notion",
+      "disconnectTitle": "Desconectar integración de Notion",
+      "disconnectMessage": "¿Estás seguro de que deseas desconectar tu integración de Notion? Esto eliminará todos los tokens de autorización y restablecerá tu configuración de Notion. Necesitarás reconectar y reconfigurar si quieres usar la integración de Notion de nuevo.",
+      "configuration": "Configuración de Notion",
+      "howItWorksDesc": "Cuando ejecutas un escaneo de accesibilidad, LumTrails creará automáticamente páginas en tu espacio de trabajo de Notion. Cada escaneo genera páginas estructuradas bajo tu página padre especificada con información detallada de violaciones y perspectivas de accesibilidad."
+    },
+    "slack": {
+      "name": "Slack",
+      "description": "Recibe notificaciones instantáneas en tus canales de Slack cuando se encuentran problemas de accesibilidad",
+      "connected": "Conectado",
+      "notConnected": "Conecta tu espacio de trabajo de Slack para recibir notificaciones",
+      "channel": "Canal",
+      "webhookUrl": "URL del webhook",
+      "webScanDesc": "Enviar mensajes a Slack cuando los escaneos web encuentran problemas de accesibilidad",
+      "pdfScanDesc": "Enviar mensajes a Slack cuando los escaneos de PDF encuentran problemas de accesibilidad",
+      "disconnectTitle": "Desconectar integración de Slack",
+      "disconnectMessage": "¿Estás seguro de que deseas desconectar tu integración de Slack? Esto eliminará la configuración del webhook y restablecerá tu configuración de Slack. Puedes reconectar en cualquier momento con una nueva URL de webhook.",
+      "configuration": "Configuración de Slack",
+      "howToGetWebhook": "Cómo obtener una URL de webhook de Slack:",
+      "webhookStep1": "Ve a api.slack.com/apps",
+      "webhookStep2": "Crea una nueva app o selecciona una existente",
+      "webhookStep3": "Ve a \"Incoming Webhooks\" y actívalos",
+      "webhookStep4": "Haz clic en \"Add New Webhook to Workspace\"",
+      "webhookStep5": "Elige tu canal y copia la URL del webhook",
+      "howItWorksDesc": "Cuando ejecutas un escaneo de accesibilidad, LumTrails enviará automáticamente notificaciones a tu espacio de trabajo de Slack. Cada violación de accesibilidad se convierte en un mensaje formateado con información detallada y enlaces a documentación relevante.",
+      "connecting": "Conectando...",
+      "connectSlack": "Conectar Slack",
+      "cancel": "Cancelar"
+    },
+    "common": {
+      "connect": "Conectar",
+      "connecting": "Conectando...",
+      "connected": "Conectado",
+      "disconnect": "Desconectar",
+      "disconnecting": "Desconectando...",
+      "configure": "Configuración avanzada",
+      "enabled": "Habilitado",
+      "disabled": "Deshabilitado",
+      "accountManagement": "Gestión de cuenta",
+      "integrationStatistics": "Estadísticas de integración",
+      "webScanEnabled": "Enviar resultados de escaneo web",
+      "pdfScanEnabled": "Enviar resultados de escaneo de PDF",
+      "pushWebScan": "Enviar resultados de escaneo web a {{platform}}",
+      "pushPdfScan": "Enviar resultados de escaneo de PDF a {{platform}}",
+      "webScanDesc": "Enviar mensajes a {{platform}} cuando los escaneos web encuentran problemas de accesibilidad",
+      "pdfScanDesc": "Enviar mensajes a {{platform}} cuando los escaneos de PDF encuentran problemas de accesibilidad",
+      "severityFilter": "Filtro de severidad",
+      "groupingOption": "Opción de agrupación",
+      "perErrorType": "Por tipo de error",
+      "singleIssue": "Issue único",
+      "regroupViolations": "Reagrupar violaciones",
+      "backToOverview": "Volver al resumen",
+      "upgradeToConnect": "Mejorar para conectar",
+      "errorOccurred": "Ocurrió un error",
+      "enabledSuccess": "¡Integración de {{platform}} habilitada exitosamente!",
+      "disabledSuccess": "¡Integración de {{platform}} deshabilitada exitosamente!",
+      "updateFailed": "Error al actualizar el estado de la integración de {{platform}}",
+      "toasts": {
+        "enabled": "¡Integración de {{platform}} habilitada exitosamente!",
+        "disabled": "¡Integración de {{platform}} deshabilitada exitosamente!",
+        "updateFailed": "Error al actualizar el estado de la integración de {{platform}}"
+      }
+    },
+    "config": {
+      "howItWorks": "Cómo funciona:",
+      "webScanConfiguration": "Configuración de escaneo web",
+      "pdfScanConfiguration": "Configuración de escaneo de PDF",
+      "severityFilter": "Filtro de severidad",
+      "groupingOption": "Opción de agrupación",
+      "selectSections": "Seleccionar secciones a incluir",
+      "wcagCompliance": "Cumplimiento WCAG",
+      "htmlValidation": "Validación HTML",
+      "brokenLinks": "Enlaces rotos",
+      "accessibilityTree": "Árbol de accesibilidad",
+      "layoutIssues": "Problemas de diseño",
+      "wcagViolations": "Violaciones WCAG",
+      "critical": "Crítico",
+      "serious": "Serio",
+      "moderate": "Moderado",
+      "minor": "Menor",
+      "statistics": "Estadísticas",
+      "perErrorType": "Por tipo de error",
+      "singleIssue": "Issue único",
+      "wcagComplianceTesting": "Pruebas de cumplimiento WCAG",
+      "htmlValidationSection": "Validación HTML",
+      "brokenLinksSection": "Enlaces rotos",
+      "layoutTestingSection": "Pruebas de diseño",
+      "groupViolations": "Agrupar violaciones",
+      "groupViolationsByType": "Agrupar violaciones por tipo",
+      "pdfAccessibilityIssues": "Problemas de accesibilidad del PDF",
+      "truncationWarning": "Advertencia: Con la agrupación 'Issue único', el contenido puede truncarse para escaneos grandes debido a los límites de caracteres de la plataforma.",
+      "parentPageUrl": "URL de la página padre",
+      "parentPageUrlRequired": "URL de la página padre *",
+      "parentPageHelp": "Las nuevas páginas con resultados de escaneo se crearán como hijas de esta página",
+      "pushWebScanResults": "Enviar resultados de escaneo web a {{platform}}",
+      "pushPdfScanResults": "Enviar resultados de escaneo de PDF a {{platform}}",
+      "enableAutoIntegrationWeb": "Habilitar integración automática de {{platform}} para resultados de escaneo",
+      "enableAutoIntegrationPdf": "Habilitar integración automática de {{platform}} para resultados de escaneo de PDF",
+      "whenDisabledNoPages": "Cuando está deshabilitado, no se crearán páginas independientemente de otras configuraciones",
+      "whenDisabledNoPdfPages": "Cuando está deshabilitado, no se crearán páginas para escaneos de PDF",
+      "whenDisabledNoMessages": "Cuando está deshabilitado, no se enviarán mensajes para escaneos web",
+      "whenDisabledNoPdfMessages": "Cuando está deshabilitado, no se enviarán mensajes para escaneos de PDF",
+      "webhookUrl": "URL del webhook",
+      "webhookUrlRequired": "URL del webhook *",
+      "webhookUrlHelp": "Esto se almacenará de forma segura y se usará para enviar notificaciones",
+      "channelOverride": "Canal alternativo (opcional)",
+      "channelOverridePlaceholder": "ej., #accesibilidad o @usuario",
+      "channelOverrideHelp": "Anular el canal predeterminado configurado en el webhook",
+      "issueGrouping": "Agrupación de issues",
+      "reportGrouping": "Agrupación de informes",
+      "pageGrouping": "Agrupación de páginas",
+      "wcagGroupingOptions": {
+        "perErrorType": "Múltiples issues (recomendado)",
+        "singleIssue": "Todas las violaciones en un issue de GitHub",
+        "perErrorTypeHelp": "Crea issues separados para las violaciones. Usa la casilla de arriba para controlar la agrupación.",
+        "singleIssueHelp": "Todas las violaciones se combinan en un solo issue (puede truncarse debido a los límites de GitHub)"
+      },
+      "htmlGroupingOptions": {
+        "perErrorType": "Un issue por tipo de error (recomendado)",
+        "singleIssue": "Todos los issues en un issue de GitHub",
+        "help": "Elige cómo agrupar los errores de validación HTML en issues de GitHub"
+      },
+      "linksGroupingOptions": {
+        "perErrorType": "Un issue por tipo de error (recomendado)",
+        "singleIssue": "Todos los issues en un issue de GitHub",
+        "help": "Elige cómo agrupar los problemas de enlaces rotos en issues de GitHub"
+      },
+      "layoutGroupingOptions": {
+        "perErrorType": "Un issue por tipo de error (recomendado)",
+        "singleIssue": "Todos los issues en un issue de GitHub",
+        "help": "Elige cómo agrupar los problemas de diseño responsivo en issues de GitHub"
+      },
+      "pdfGroupingOptions": {
+        "perPage": "Un issue por página de PDF (recomendado)",
+        "singleIssue": "Todos los resultados del escaneo de PDF en un issue",
+        "help": "Elige cómo agrupar los resultados del escaneo de PDF en issues de GitHub"
+      },
+      "notionWcagGroupingOptions": {
+        "perErrorType": "Múltiples páginas (recomendado)",
+        "singleIssue": "Todas las violaciones en una página completa",
+        "perErrorTypeHelp": "Crea páginas separadas para las violaciones. Usa la casilla de arriba para controlar la agrupación.",
+        "singleIssueHelp": "Todas las violaciones se combinan en una sola página completa - ideal para Notion ya que no hay límites de caracteres"
+      },
+      "notionHtmlGroupingOptions": {
+        "perErrorType": "Una página por tipo de error",
+        "singleIssue": "Todos los issues en una página completa (recomendado)",
+        "help": "Elige cómo agrupar los errores de validación HTML en páginas de Notion"
+      },
+      "notionLinksGroupingOptions": {
+        "perErrorType": "Una página por tipo de error",
+        "singleIssue": "Todos los issues en una página completa (recomendado)",
+        "help": "Elige cómo agrupar los problemas de enlaces rotos en páginas de Notion"
+      },
+      "notionLayoutGroupingOptions": {
+        "perErrorType": "Una página por tipo de error",
+        "singleIssue": "Todos los issues en una página completa (recomendado)",
+        "help": "Elige cómo agrupar los problemas de diseño responsivo en páginas de Notion"
+      },
+      "notionPdfGroupingOptions": {
+        "perPage": "Una página por página de PDF (recomendado)",
+        "singleIssue": "Todos los resultados del escaneo de PDF en una página",
+        "help": "Elige cómo agrupar los resultados del escaneo de PDF en páginas de Notion"
+      },
+      "notionSeverityFilter": {
+        "help": "Solo crear páginas para los niveles de severidad seleccionados"
+      },
+      "notionViolationGrouping": {
+        "label": "Agrupación de violaciones",
+        "groupByRuleType": "Agrupar violaciones por tipo de regla",
+        "groupByRuleTypeHelp": "Cuando está habilitado, las violaciones de la misma regla se agrupan en páginas únicas. Cuando está deshabilitado, cada violación tiene su propia página.",
+        "disabledWhenSingleIssue": "Deshabilitado cuando todas las violaciones se combinan en una página"
+      },
+      "slackMessageGrouping": "Agrupación de mensajes",
+      "slackWcagGroupingOptions": {
+        "perErrorType": "Múltiples mensajes (recomendado)",
+        "singleIssue": "Todas las violaciones en un mensaje",
+        "perErrorTypeHelp": "Crea mensajes separados para las violaciones. Usa la casilla de abajo para controlar la agrupación.",
+        "singleIssueHelp": "Todas las violaciones se combinan en un solo mensaje (puede truncarse debido a los límites de Slack)"
+      },
+      "slackHtmlGroupingOptions": {
+        "perErrorType": "Un mensaje por tipo de error (recomendado)",
+        "singleIssue": "Todos los issues en un mensaje",
+        "help": "Elige cómo agrupar los errores de validación HTML en mensajes de Slack"
+      },
+      "slackLinksGroupingOptions": {
+        "perErrorType": "Un mensaje por tipo de error (recomendado)",
+        "singleIssue": "Todos los issues en un mensaje",
+        "help": "Elige cómo agrupar los problemas de enlaces rotos en mensajes de Slack"
+      },
+      "slackLayoutGroupingOptions": {
+        "perErrorType": "Un mensaje por tipo de error (recomendado)",
+        "singleIssue": "Todos los issues en un mensaje",
+        "help": "Elige cómo agrupar los problemas de diseño responsivo en mensajes de Slack"
+      },
+      "slackPdfGroupingOptions": {
+        "perPage": "Un mensaje por página de PDF (recomendado)",
+        "singleIssue": "Todos los resultados del escaneo de PDF en un mensaje",
+        "help": "Elige cómo agrupar los resultados del escaneo de PDF en mensajes de Slack"
+      },
+      "slackViolationGrouping": {
+        "label": "Agrupación de violaciones",
+        "groupByRuleType": "Agrupar violaciones por tipo de regla",
+        "groupByRuleTypeHelp": "Cuando está habilitado, las violaciones de la misma regla se agrupan en un mensaje. Cuando está deshabilitado, cada violación individual tiene su propio mensaje.",
+        "disabledWhenSingleIssue": "Deshabilitado cuando todas las violaciones se combinan en un mensaje",
+        "truncationWarning": "Los mensajes pueden truncarse si se agrupan demasiadas violaciones juntas, debido al límite de ~3,000 caracteres por mensaje de Slack."
+      },
+      "slackChannelSettings": {
+        "webhookUrlHelp": "Actualiza tu URL de webhook de Slack para cambiar el canal de destino",
+        "channelOverrideLabel": "Canal alternativo (opcional)",
+        "channelOverrideHelp": "Anular el canal predeterminado configurado en el webhook"
+      },
+      "slackSeverityFilter": {
+        "label": "Filtro de severidad",
+        "highSeverityIssues": "Problemas de alta severidad",
+        "mediumSeverityIssues": "Problemas de severidad media",
+        "lowSeverityIssues": "Problemas de baja severidad",
+        "help": "Solo enviar mensajes para los niveles de severidad seleccionados"
+      },
+      "slackWarnings": {
+        "messageSizeLimit": "Advertencia de límite de tamaño de mensaje",
+        "truncationMessage": "Al enviar todas las violaciones en un mensaje, el contenido puede truncarse debido a los límites de tamaño de mensaje de Slack. Considera usar 'Un mensaje por violación/grupo' para mejor visibilidad de todas las violaciones.",
+        "pdfTruncationMessage": "El mensaje resultante puede truncarse debido al límite de tamaño de mensaje de Slack (~3,000 caracteres por bloque, 50 bloques máx.).",
+        "truncationShort": "El contenido puede truncarse debido al límite de ~3,000 caracteres de Slack."
+      },
+      "sectionTitles": {
+        "wcagComplianceTesting": "Pruebas de cumplimiento WCAG",
+        "htmlMarkupValidation": "Validación de marcado HTML",
+        "linkHealthCheck": "Verificación de estado de enlaces",
+        "accessibilityTreeStructure": "Estructura del árbol de accesibilidad",
+        "responsiveLayoutTesting": "Pruebas de diseño responsivo",
+        "pdfAccessibilityIssues": "Problemas de accesibilidad del PDF"
+      },
+      "warnings": {
+        "issueSizeLimit": "Advertencia de límite de tamaño del issue",
+        "truncationMessage": "Al combinar todas las violaciones en un issue, el contenido puede truncarse debido al límite de tamaño del cuerpo del issue de GitHub (~65,000 caracteres).",
+        "truncationShort": "El contenido puede truncarse debido al límite de ~65,000 caracteres de GitHub.",
+        "potentialTruncation": "Advertencia: Posible truncamiento",
+        "truncationExplanation": "El issue resultante puede truncarse debido al límite del cuerpo del issue de GitHub (~65,000 caracteres)."
+      },
+      "sectionDescriptions": {
+        "axTreeEnabled": "Cuando está habilitado, la estructura del árbol de accesibilidad se incluirá en los issues de GitHub."
+      },
+      "statisticsTab": {
+        "title": "Estadísticas",
+        "totalIssuesCreated": "Total de issues creados:",
+        "lastIssueCreated": "Último issue creado:",
+        "pagesCreated": "Total de páginas creadas:",
+        "lastPageCreated": "Última página creada:",
+        "messagesSent": "Total de mensajes enviados:",
+        "lastMessageSent": "Último mensaje enviado:"
+      },
+      "pageAccessManagement": {
+        "title": "Gestión de acceso a páginas",
+        "description": "Si necesitas actualizar las páginas a las que LumTrails está autorizado a acceder en tu espacio de trabajo de Notion, puedes desconectar tu cuenta y reconectar después."
+      },
+      "buttons": {
+        "backToOverview": "Volver al resumen",
+        "disconnect": "Desconectar",
+        "disconnecting": "Desconectando..."
+      },
+      "violationGrouping": {
+        "label": "Agrupación de violaciones",
+        "groupByRuleType": "Agrupar violaciones por tipo de regla",
+        "groupByRuleTypeHelp": "Cuando está habilitado, las violaciones de la misma regla se agrupan en issues únicos. Cuando está deshabilitado, cada violación tiene su propio issue.",
+        "disabledWhenSingleIssue": "Deshabilitado cuando todas las violaciones se combinan en un issue",
+        "truncationWarning": "Los issues pueden truncarse si se agrupan demasiadas violaciones juntas, debido al límite de ~65,000 caracteres de GitHub."
+      },
+      "severity": {
+        "high": "Alto",
+        "medium": "Medio",
+        "low": "Bajo",
+        "highSeverityIssues": "Problemas de alta severidad",
+        "mediumSeverityIssues": "Problemas de severidad media",
+        "lowSeverityIssues": "Problemas de baja severidad",
+        "severityIssues": "Problemas de severidad {{severity}}",
+        "onlyCreateForSelected": "Solo crear issues para los niveles de severidad seleccionados"
+      }
+    }
+  },
+  "api": {
+    "title": "Acceso a la API",
+    "pageTitle": "Acceso a la API",
+    "pageDescription": "Gestiona las claves API para acceso programático a los servicios de escaneo de LumTrails",
+    "signInToAccess": "Por favor, inicia sesión para acceder a la página de gestión de API.",
+    "yourApiKeys": "Tus claves API",
+    "createKey": "Crear clave",
+    "paidPlanRequired": "Se requiere plan de pago",
+    "loginRequiredTitle": "Inicio de sesión requerido",
+    "loginRequiredDescription": "Por favor, inicia sesión para crear claves API e integrar LumTrails en tu flujo de trabajo de desarrollo.",
+    "apiAccessRequiresPaidSubscription": "El acceso a la API requiere una suscripción de pago",
+    "apiAccessDescription": "El acceso a la API está disponible en los planes Standard y Business. Mejora tu suscripción para generar claves API e integrar LumTrails en tu flujo de trabajo de desarrollo.",
+    "viewPlansAndUpgrade": "Ver planes y mejorar",
+    "noApiKeysYet": "Aún no hay claves API",
+    "clickCreateKeyToGetStarted": "Haz clic en \"Crear clave\" para comenzar con la API de LumTrails.",
+    "created": "Creado",
+    "expires": "Expira",
+    "noExpiration": "Sin expiración",
+    "lastUsed": "Último uso",
+    "requests": "Solicitudes",
+    "revokeThisKey": "Revocar esta clave",
+    "description": "Gestiona las claves API para acceso programático a los servicios de escaneo de LumTrails",
+    "keys": {
+      "title": "Tus claves API",
+      "createKey": "Crear clave",
+      "paidRequired": "Se requiere plan de pago",
+      "empty": {
+        "title": "Aún no hay claves API",
+        "description": "Haz clic en \"Crear clave\" para comenzar con la API de LumTrails."
+      },
+      "created": "Creado: {{date}}",
+      "expires": "Expira: {{date}}",
+      "noExpiration": "Sin expiración",
+      "lastUsed": "Último uso: {{date}}",
+      "requests": "Solicitudes: {{count}}",
+      "revoke": "Revocar esta clave"
+    },
+    "paidRequired": {
+      "title": "El acceso a la API requiere una suscripción de pago",
+      "description": "El acceso a la API está disponible en los planes Standard y Business. Mejora tu suscripción para generar claves API e integrar LumTrails en tu flujo de trabajo de desarrollo.",
+      "cta": "Ver planes y mejorar"
+    },
+    "createModal": {
+      "title": "Crear nueva clave API",
+      "keyName": "Nombre de la clave",
+      "keyNamePlaceholder": "mi-clave-api",
+      "keyNameHelp": "Solo alfanumérico en minúsculas (se permiten guiones bajos y guiones)",
+      "validityPeriod": "Período de validez",
+      "validityOptions": {
+        "1day": "1 día",
+        "1week": "1 semana",
+        "1month": "1 mes",
+        "6months": "6 meses",
+        "1year": "1 año",
+        "unlimited": "Ilimitado"
+      },
+      "unlimitedWarning": "Advertencia: Las claves API sin fecha de expiración pueden representar un riesgo de seguridad si se ven comprometidas.",
+      "generate": "Generar clave",
+      "success": {
+        "title": "¡Clave API creada exitosamente!",
+        "description": "Copia tu clave API ahora. Por razones de seguridad, no se mostrará de nuevo.",
+        "done": "Listo"
+      }
+    },
+    "revokeModal": {
+      "title": "Revocar clave API",
+      "description": "¿Estás seguro de que deseas revocar la clave API:",
+      "warning": "Esta acción no se puede deshacer. Cualquier aplicación que use esta clave perderá el acceso.",
+      "confirm": "Revocar clave"
+    },
+    "documentation": {
+      "title": "Documentación de la API",
+      "baseUrl": "URL base",
+      "authentication": "Autenticación",
+      "authDescription": "Todas las solicitudes de API requieren autenticación. Incluye tu clave API en el encabezado Authorization:",
+      "rateLimit": "Límite de velocidad",
+      "rateLimitDescription": "100 solicitudes por minuto por clave API",
+      "creditsSystem": "Sistema de créditos",
+      "webScans": "Escaneos web",
+      "webScansCredits": "1 crédito por módulo usado",
+      "pdfScans": "Escaneos de PDF",
+      "pdfScansCredits": "1 crédito por página escaneada",
+      "creditsDeducted": "Los créditos se deducen después de completar exitosamente el escaneo. Verifica tu saldo con el",
+      "endpoint": "endpoint",
+      "quickNavigation": "Navegación rápida",
+      "general": "General",
+      "webScan": "Escaneo web",
+      "pdfScan": "Escaneo de PDF",
+      "integrations": "Integraciones",
+      "generalRoutes": "Rutas generales",
+      "response": "Respuesta",
+      "pythonExample": "Ejemplo en Python",
+      "pythonExampleUrl": "Ejemplo en Python (Método URL)",
+      "pythonExampleFile": "Ejemplo en Python (Subida de archivo)",
+      "requestBody": "Cuerpo de la solicitud",
+      "configurationOptions": "Opciones de configuración",
+      "availableModules": "Módulos disponibles",
+      "cost": "Costo",
+      "note": "Nota",
+      "healthDescription": "Verifica la conectividad de la API y valida tu clave API. Devuelve el estado operativo.",
+      "validityDescription": "Verifica el tiempo de validez restante de tu clave API. Muestra la fecha de expiración y el tiempo restante.",
+      "accountDescription": "Obtén información de la cuenta incluyendo ID de usuario, email y créditos disponibles para escaneos web y de PDF.",
+      "webScanDescription": "Realiza un escaneo de accesibilidad multi-módulo en una URL de sitio web usando 5 herramientas especializadas.",
+      "webScanSyncNote": "Los resultados se devuelven de forma síncrona - la solicitud se completa cuando todos los escaneos terminan (típicamente 1-5 minutos).",
+      "webScanCost": "1 crédito por módulo seleccionado",
+      "webScanIntegrationNote": "Si las integraciones están habilitadas, los resultados se envían automáticamente a las plataformas configuradas (GitHub, Notion, Slack) en segundo plano después de que el escaneo se completa.",
+      "pdfScanDescription": "Analiza un documento PDF para detectar problemas de accesibilidad usando análisis con IA.",
+      "pdfScanMethods": "Dos métodos de subida soportados: subida directa de archivo o referencia por URL.",
+      "pdfScanCost": "1 crédito por página escaneada",
+      "pdfScanUrlMethod": "Método URL (cuerpo JSON)",
+      "pdfScanFileUpload": "Subida directa de archivo (multipart/form-data)",
+      "axeDescription": "Pruebas de cumplimiento WCAG (axe-core)",
+      "nuDescription": "Validación de marcado HTML (W3C)",
+      "axTreeDescription": "Análisis del árbol de accesibilidad",
+      "galenDescription": "Pruebas de diseño responsivo",
+      "linksDescription": "Verificador de enlaces rotos",
+      "integrationsTitle": "Integraciones",
+      "integrationsOverview": "Resumen de integraciones",
+      "integrationsDescription": "Gestiona y configura tus integraciones conectadas (GitHub, Notion, Slack) para el envío automático de resultados.",
+      "githubIntegration": "Integración de GitHub",
+      "githubDescription": "Envía los resultados del escaneo como Issues de GitHub para seguimiento y remediación.",
+      "notionIntegration": "Integración de Notion", 
+      "notionDescription": "Crea páginas de Notion con informes detallados de accesibilidad.",
+      "slackIntegration": "Integración de Slack",
+      "slackDescription": "Envía notificaciones de resultados de escaneo a canales de Slack.",
+      "getIntegrations": "Obtener estado de integración",
+      "getIntegrationsDescription": "Recupera el estado actual de todas las integraciones configuradas.",
+      "configureIntegration": "Configurar integración",
+      "configureGithubDescription": "Configura los ajustes de integración de GitHub para la creación automática de issues.",
+      "configureNotionDescription": "Configura los ajustes de integración de Notion para la creación de páginas.",
+      "configureSlackDescription": "Configura los ajustes de integración de Slack para notificaciones.",
+      "disableIntegration": "Deshabilitar integración",
+      "disableIntegrationDescription": "Deshabilita una integración específica.",
+      "enableIntegration": "Habilitar integración",
+      "enableIntegrationDescription": "Habilita una integración previamente configurada.",
+      "errorsTitle": "Respuestas de error",
+      "allEndpointsError": "Todos los endpoints pueden devolver estas respuestas de error estándar:",
+      "errors": {
+        "title": "Respuestas de error",
+        "401": "Clave API inválida o expirada",
+        "402": "Créditos insuficientes",
+        "400": "Parámetros de solicitud inválidos",
+        "404": "Integración no conectada",
+        "429": "Límite de velocidad excedido (100/min)",
+        "500": "Ocurrió un error del servidor",
+        "tableHeaders": {
+          "code": "Código",
+          "status": "Estado",
+          "description": "Descripción"
+        },
+        "statusLabels": {
+          "401": "No autorizado",
+          "402": "Pago requerido",
+          "400": "Solicitud incorrecta",
+          "404": "No encontrado",
+          "429": "Demasiadas solicitudes",
+          "500": "Error interno del servidor"
+        }
+      },
+      "copyCode": "Copiar código"
+    },
+    "codeBlocks": {
+      "copyCode": "Copiar código",
+      "pythonExample": "Ejemplo en Python",
+      "pythonExampleUrl": "Ejemplo en Python (Método URL)",
+      "pythonExampleFile": "Ejemplo en Python (Subida de archivo)",
+      "requestBody": "Cuerpo de la solicitud",
+      "configurationOptions": "Opciones de configuración"
+    },
+    "toasts": {
+      "codeCopied": "¡Código copiado al portapapeles!",
+      "keyCreated": "¡Clave API creada exitosamente!",
+      "keyRevoked": "¡Clave API revocada exitosamente!"
+    }
+  },
+  "pricing": {
+    "title": "Elige tu plan",
+    "description": "Precios flexibles para equipos de todos los tamaños",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "oneMonthFree": "1 mes gratis",
+    "perMonth": "/mes",
+    "perYear": "/año",
+    "custom": "Personalizado",
+    "activePlan": "Plan activo",
+    "currentPlan": "Plan actual",
+    "subscribe": "Suscribirse",
+    "upgrade": "Mejorar",
+    "downgrade": "Reducir",
+    "contactUs": "Contáctanos",
+    "paymentSuccess": "¡Pago exitoso!",
+    "plans": {
+      "free": {
+        "name": "Gratis",
+        "description": "Perfecto para probar LumTrails",
+        "features": {
+          "webScans": "40 créditos de escaneo web por semana (1 crédito por módulo)",
+          "pdfScans": "2 créditos de escaneo de PDF por semana (1 crédito por página)",
+          "reports": "Informes básicos de accesibilidad",
+          "storage": "Datos almacenados durante 30 días",
+          "integrations": "Soporte de integraciones: Github, Notion, Slack",
+          "api": "Acceso a la API"
+        }
+      },
+      "standard": {
+        "name": "Standard",
+        "description": "Ideal para equipos pequeños y proyectos",
+        "features": {
+          "webScans": "1,000 créditos de escaneo web por mes (1 crédito por módulo)",
+          "pdfScans": "50 créditos de escaneo de PDF por mes (1 crédito por página)",
+          "reports": "Informes básicos de accesibilidad",
+          "storage": "Datos almacenados durante 6 meses",
+          "integrations": "Soporte de integraciones: Github, Notion, Slack",
+          "api": "Acceso a la API"
+        }
+      },
+      "business": {
+        "name": "Business",
+        "description": "Para negocios en crecimiento con alto volumen",
+        "features": {
+          "webScans": "10,000 créditos de escaneo web por mes (1 crédito por módulo)",
+          "pdfScans": "500 créditos de escaneo de PDF por mes (1 crédito por página)",
+          "reports": "Informes básicos de accesibilidad",
+          "storage": "Datos almacenados durante 1 año",
+          "integrations": "Soporte de integraciones: Github, Notion, Slack",
+          "api": "Acceso a la API"
+        }
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Para grandes organizaciones con necesidades personalizadas",
+        "features": {
+          "webScans": "Volúmenes de escaneos web personalizados",
+          "pdfScans": "Volúmenes de escaneos de PDF personalizados",
+          "integrations": "Integraciones personalizadas",
+          "reports": "Informes de accesibilidad personalizados",
+          "storage": "Retención de datos personalizada",
+          "api": "Límites de API personalizados"
+        }
+      }
+    },
+    "importantInfo": {
+      "title": "Información importante",
+      "creditsReset": "Los créditos se reinician según tu plan de suscripción",
+      "creditsExpire": "Los créditos no utilizados expiran y no se transfieren",
+      "freeCredits": "Los usuarios gratuitos reciben 40 créditos web y 2 de PDF por semana (renovados los lunes)",
+      "webScanCost": "Los escaneos web cuestan 1 crédito por módulo seleccionado",
+      "pdfScanCost": "Los escaneos de PDF cuestan 1 crédito por página del documento",
+      "changePlan": "Puedes mejorar o reducir tu plan en cualquier momento",
+      "needMore": "¿Necesitas más créditos? Mejora a un nivel superior para mayores asignaciones mensuales"
+    },
+    "errors": {
+      "signInRequired": "Por favor, inicia sesión para suscribirte",
+      "alreadyOnPlan": "Ya estás en este plan",
+      "subscriptionFailed": "Error al crear la suscripción"
+    },
+    "subscriptionCancelled": "El proceso de suscripción fue cancelado"
+  },
+  "profile": {
+    "title": "Mi perfil",
+    "description": "Gestiona tu cuenta, suscripción e información de facturación",
+    "tabs": {
+      "overview": "Resumen",
+      "usageHistory": "Historial de uso",
+      "invoices": "Facturas"
+    },
+    "billingInfo": {
+      "title": "Información de la empresa",
+      "companyName": "Nombre de la empresa",
+      "vatNumber": "Número de IVA",
+      "address": "Dirección",
+      "city": "Ciudad",
+      "postalCode": "Código postal",
+      "country": "País"
+    },
+    "billing": {
+      "title": "Información de la empresa",
+      "companyName": "Nombre de la empresa",
+      "vatNumber": "Número de IVA",
+      "address": "Dirección",
+      "city": "Ciudad",
+      "postalCode": "Código postal",
+      "country": "País",
+      "modal": {
+        "title": "Información de facturación requerida",
+        "description": "Por favor, proporcione su información de facturación antes de proceder al pago. Esta información se utilizará para la facturación.",
+        "business": "Empresa (B2B)",
+        "individual": "Particular (B2C)",
+        "companyName": "Nombre de la empresa",
+        "vatNumber": "Número de IVA (opcional)",
+        "fullName": "Nombre completo",
+        "addressLine1": "Línea de dirección 1",
+        "addressLine2": "Línea de dirección 2 (opcional)",
+        "city": "Ciudad",
+        "postalCode": "Código postal",
+        "country": "País",
+        "cancel": "Cancelar",
+        "continue": "Continuar al pago",
+        "saving": "Guardando...",
+        "companyRequired": "El nombre de la empresa es obligatorio",
+        "nameRequired": "El nombre completo es obligatorio",
+        "addressRequired": "Por favor, complete todos los campos de dirección requeridos",
+        "saveSuccess": "Información de facturación guardada correctamente",
+        "saveFailed": "Error al guardar la información de facturación"
+      }
+    },
+    "subscription": {
+      "title": "Suscripción",
+      "currentPlan": "Plan actual",
+      "status": "Estado",
+      "nextBilling": "Próxima facturación",
+      "cancel": "Cancelar suscripción",
+      "cancelSubscription": "Cancelar suscripción",
+      "resume": "Mantener suscripción",
+      "resumeSubscription": "Reanudar suscripción",
+      "upgrade": "Mejorar plan",
+      "upgradePlan": "Mejorar plan",
+      "changePlan": "Cambiar plan",
+      "accessUntil": "Acceso hasta",
+      "renewsOn": "Se renueva el",
+      "endsOn": "Tu suscripción terminará el",
+      "subscriptionEndsOn": "Tu suscripción terminará el {{date}}"
+    },
+    "credits": {
+      "title": "Saldo de créditos",
+      "webCredits": "Créditos de escaneo web",
+      "pdfCredits": "Créditos de escaneo de PDF",
+      "remaining": "{{count}} restantes",
+      "renewOn": "Los créditos se renuevan el",
+      "expireOn": "Los créditos expiran el: {{date}}",
+      "perModule": "1 crédito por módulo",
+      "perPage": "1 crédito por página",
+      "freeCreditsInfo": "Como usuario gratuito, recibes 40 créditos de escaneo web y 2 de PDF por semana. Los créditos se renuevan cada lunes a las 00:00 CET y no son acumulables.",
+      "creditsResetMonthly": "Los créditos se reinician según tu plan de suscripción"
+    },
+    "cancelModal": {
+      "title": "Cancelar suscripción",
+      "areYouSure": "¿Estás seguro de que deseas cancelar tu suscripción? Esto es lo que sucederá:",
+      "retainAccess": "Mantendrás acceso a las funciones de tu plan {{plan}} hasta el final de tu período de facturación",
+      "creditsPreserved": "Tus créditos restantes se conservarán hasta el final de tu suscripción.",
+      "downgradedToFree": "Después de que termine el período de facturación, serás degradado al plan Gratis",
+      "reactivateAnytime": "Puedes reactivar tu suscripción en cualquier momento",
+      "activeUntil": "Tu suscripción permanecerá activa hasta {{date}}"
+    },
+    "usage": {
+      "title": "Estadísticas de uso",
+      "webScans": "Escaneos web",
+      "pdfScans": "Escaneos de PDF",
+      "thisMonth": "Este mes",
+      "webScansThisMonth": "Escaneos web (este mes)",
+      "pdfScansThisMonth": "Escaneos de PDF (este mes)",
+      "webScanCredits": "Créditos de escaneo web",
+      "pdfScanCredits": "Créditos de escaneo de PDF",
+      "total": "Total",
+      "totalWebScans": "Total de escaneos web",
+      "totalPdfScans": "Total de escaneos de PDF",
+      "activeApiKeys": "Claves API activas",
+      "activeIntegrations": "Integraciones activas",
+      "noIntegrations": "Sin integraciones conectadas",
+      "webScansUsed": "Escaneos web usados",
+      "pdfScansUsed": "Escaneos de PDF usados"
+    },
+    "invoices": {
+      "title": "Historial de compras y facturas",
+      "empty": {
+        "title": "Aún no hay compras",
+        "description": "Tu historial de compras aparecerá aquí una vez que realices tu primera compra."
+      },
+      "viewInvoice": "Ver factura",
+      "download": "Descargar factura"
+    },
+    "deleteAccount": {
+      "title": "Eliminar cuenta",
+      "description": "Elimina permanentemente tu cuenta y todos los datos asociados.",
+      "warning": "Esta acción no se puede deshacer.",
+      "confirm": "Eliminar mi cuenta",
+      "cannotUndo": "Esta acción no se puede deshacer",
+      "subscriptionActive": "Tu suscripción aún está activa",
+      "scheduledDeletion": "Tu cuenta será programada para eliminación el {{date}}. Puedes cancelar esta eliminación en cualquier momento antes de esa fecha.",
+      "immediateWarning": "Tu cuenta será eliminada inmediatamente. Todos tus datos incluyendo resultados de escaneo, integraciones y claves API serán eliminados permanentemente.",
+      "dataToDelete": "Los siguientes datos serán eliminados:",
+      "dataList": {
+        "profile": "Tu perfil de usuario y configuración",
+        "webScans": "Todos los resultados de escaneos web",
+        "pdfScans": "Todos los resultados de escaneos de PDF",
+        "apiKeys": "Claves API e integraciones",
+        "usage": "Historial de créditos y uso"
+      },
+      "typeToConfirmPrefix": "Escribe",
+      "typeToConfirmSuffix": "para confirmar:",
+      "confirmPhrase": "eliminar mi cuenta",
+      "scheduleDeletion": "Programar eliminación",
+      "deleteAccount": "Eliminar cuenta",
+      "accountDeleted": "Tu cuenta ha sido eliminada.",
+      "deletionScheduledFor": "Eliminación de cuenta programada para {{date}}",
+      "deletionFailed": "Error al procesar la solicitud de eliminación",
+      "deletionCancelled": "La eliminación de la cuenta ha sido cancelada",
+      "cancelFailed": "Error al cancelar la eliminación",
+      "cancelSubscriptionFirst": "Por favor, cancela tu suscripción primero antes de eliminar tu cuenta.",
+      "deletionScheduled": "Eliminación de cuenta programada",
+      "scheduledFor": "Tu cuenta está programada para eliminarse el {{date}}",
+      "cancelling": "Cancelando...",
+      "cancelDeletion": "Cancelar eliminación",
+      "wantToRemove": "¿Quieres eliminar tu cuenta?",
+      "cancelSubFirst": "Cancela tu suscripción primero para eliminar tu cuenta"
+    },
+    "toasts": {
+      "loadFailed": "Error al cargar los datos del perfil",
+      "subscriptionSuccess": "¡Suscripción exitosa! ¡Bienvenido a bordo!",
+      "subscriptionCancelled": "Suscripción cancelada con éxito",
+      "subscriptionResumed": "Suscripción reanudada con éxito",
+      "saveSuccess": "Cambios guardados con éxito",
+      "saveFailed": "Error al guardar los cambios"
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes una pregunta, comentario o necesitas asistencia? Estamos aquí para ayudarte. Completa el formulario a continuación o contáctanos directamente.",
+    "getInTouch": "Ponte en contacto",
+    "email": "Email",
+    "responseTime": "Tiempo de respuesta",
+    "responseTimeDesc": "Normalmente respondemos a las consultas en 1-2 días hábiles.",
+    "helpfulLinks": "Enlaces útiles",
+    "form": {
+      "sendMessage": "Envíanos un mensaje",
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "tu.email@ejemplo.com",
+      "subject": "Asunto",
+      "selectSubject": "Selecciona un asunto...",
+      "message": "Mensaje",
+      "messagePlaceholder": "¿Cómo podemos ayudarte?",
+      "messageHint": "Mínimo 10 caracteres",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "privacyNotice": "Al enviar este formulario, aceptas nuestra",
+      "privacyNotice2": "Solo usaremos tu información para responder a tu consulta.",
+      "messageSentTitle": "¡Mensaje enviado!",
+      "messageSentDesc": "Gracias por contactarnos. Hemos recibido tu mensaje y te responderemos a la dirección de email proporcionada en 1-2 días hábiles.",
+      "sendAnother": "Enviar otro mensaje",
+      "successMessage": "¡Mensaje enviado exitosamente!",
+      "errorMessage": "Error al enviar el mensaje. Por favor, envíanos un email directamente.",
+      "subjects": {
+        "generalInquiry": "Consulta general",
+        "technicalSupport": "Soporte técnico",
+        "billingQuestion": "Pregunta de facturación",
+        "accessibilityFeedback": "Comentarios sobre accesibilidad",
+        "featureRequest": "Solicitud de función",
+        "partnershipInquiry": "Consulta de asociación",
+        "pressInquiry": "Consulta de prensa",
+        "other": "Otro"
+      },
+      "errors": {
+        "nameRequired": "El nombre es obligatorio",
+        "emailRequired": "El email es obligatorio",
+        "emailInvalid": "Por favor, introduce una dirección de email válida",
+        "subjectRequired": "El asunto es obligatorio",
+        "messageRequired": "El mensaje es obligatorio",
+        "messageMinLength": "El mensaje debe tener al menos 10 caracteres",
+        "fillRequired": "Por favor, completa todos los campos obligatorios correctamente"
+      }
+    }
+  },
+  "errors": {
+    "general": "Ocurrió un error",
+    "networkError": "Error de red. Por favor, verifica tu conexión.",
+    "serverError": "Error del servidor. Por favor, inténtalo de nuevo más tarde.",
+    "notFound": "Página no encontrada",
+    "unauthorized": "No estás autorizado para acceder a este recurso",
+    "forbidden": "Acceso denegado",
+    "sessionExpired": "Tu sesión ha expirado. Por favor, inicia sesión de nuevo.",
+    "tryAgain": "Por favor, inténtalo de nuevo"
+  },
+  "dates": {
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "daysAgo": "Hace {{count}} días",
+    "weeksAgo": "Hace {{count}} semanas",
+    "monthsAgo": "Hace {{count}} meses",
+    "yearsAgo": "Hace {{count}} años"
+  },
+  "accessibility": {
+    "skipToMain": "Saltar al contenido principal",
+    "mainContent": "Contenido principal",
+    "navigation": "Navegación",
+    "mainNavigation": "Navegación principal",
+    "sidebarNavigation": "Navegación de la barra lateral",
+    "mobileNavigation": "Navegación móvil",
+    "homepage": "Página de inicio de LumTrails",
+    "footer": "Pie de página",
+    "loading": "Cargando",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú",
+    "expandSection": "Expandir sección",
+    "collapseSection": "Contraer sección",
+    "currentPage": "Página actual",
+    "externalLink": "Se abre en una nueva pestaña",
+    "lastReviewed": "Última revisión de accesibilidad",
+    "reviewNote": "Esta declaración fue creada usando autoevaluación con las herramientas y métodos descritos anteriormente. Revisamos y actualizamos regularmente esta declaración para reflejar cambios en nuestro sitio web."
+  },
+  "legalPages": {
+    "backToHome": "← Volver al inicio",
+    "lastUpdated": "Última actualización:",
+    "effectiveDate": "Fecha de entrada en vigor:",
+    "privacy": {
+      "title": "Política de privacidad",
+      "intro": "LumTrails (\"nosotros\", \"nos\", \"nuestro\") se compromete a proteger tu privacidad y garantizar la seguridad de tus datos personales. Esta Política de Privacidad explica cómo recopilamos, usamos, almacenamos y protegemos tu información cuando usas nuestra plataforma de escaneo de accesibilidad web en your-domain.com.",
+      "introGdpr": "Esta política está diseñada para cumplir con el Reglamento General de Protección de Datos (RGPD) (UE) 2016/679 y otras leyes de protección de datos aplicables.",
+      "sections": {
+        "dataController": {
+          "title": "1. Responsable del tratamiento de datos",
+          "intro": "El responsable del tratamiento de tus datos personales es:",
+          "companyName": "YOUR_COMPANY_NAME",
+          "address": "YOUR_STREET_ADDRESS",
+          "city": "YOUR_CITY_ZIP, YOUR_COUNTRY",
+          "siret": "SIRET: YOUR_SIRET_NUMBER",
+          "emailLabel": "Email:"
+        },
+        "personalData": {
+          "title": "2. Datos personales que recopilamos",
+          "intro": "Recopilamos y procesamos las siguientes categorías de datos personales:",
+          "accountInfo": "Información de la cuenta",
+          "accountItems": ["Dirección de email", "Nombre para mostrar (si se proporciona)", "Foto de perfil (si usas autenticación de Google)", "Información del proveedor de autenticación"],
+          "usageData": "Datos de uso",
+          "usageItems": ["Historial de escaneos (URLs y PDFs escaneados)", "Resultados de escaneos e informes de accesibilidad", "Uso de créditos e información de facturación", "Registros de uso de API (si usas nuestra API)"],
+          "technicalData": "Datos técnicos",
+          "technicalItems": ["Dirección IP", "Tipo y versión del navegador", "Información del dispositivo", "Marcas de tiempo de acceso"],
+          "integrationData": "Datos de integración",
+          "integrationItems": ["Tokens de conexión de GitHub, Notion o Slack (encriptados)", "Configuración de ajustes de integración"]
+        },
+        "legalBasis": {
+          "title": "3. Base legal para el procesamiento",
+          "intro": "Procesamos tus datos personales basándonos en los siguientes fundamentos legales bajo el RGPD:",
+          "tableHeaders": ["Actividad de procesamiento", "Base legal"],
+          "rows": [
+            ["Creación y gestión de cuenta", "Ejecución de contrato (Art. 6(1)(b))"],
+            ["Provisión de servicios de escaneo de accesibilidad", "Ejecución de contrato (Art. 6(1)(b))"],
+            ["Procesamiento de pagos", "Ejecución de contrato (Art. 6(1)(b))"],
+            ["Mejora del servicio y análisis", "Interés legítimo (Art. 6(1)(f))"],
+            ["Seguridad y prevención de fraude", "Interés legítimo (Art. 6(1)(f))"],
+            ["Cumplimiento legal (impuestos, facturación)", "Obligación legal (Art. 6(1)(c))"]
+          ]
+        },
+        "purposes": {
+          "title": "4. Propósitos del procesamiento",
+          "intro": "Usamos tus datos personales para los siguientes propósitos:",
+          "items": [
+            "Entrega del servicio: Para proporcionar servicios de escaneo de accesibilidad web y PDF",
+            "Gestión de cuenta: Para crear y gestionar tu cuenta de usuario",
+            "Facturación: Para procesar pagos y gestionar suscripciones a través de Stripe",
+            "Comunicación: Para enviar notificaciones relacionadas con el servicio y responder a tus consultas",
+            "Integraciones: Para conectar tu cuenta con servicios de terceros (GitHub, Notion, Slack) cuando esté autorizado",
+            "Mejora: Para analizar patrones de uso y mejorar nuestros servicios",
+            "Seguridad: Para proteger contra accesos no autorizados y garantizar la seguridad de la plataforma",
+            "Cumplimiento legal: Para cumplir con las leyes y regulaciones aplicables"
+          ]
+        },
+        "retention": {
+          "title": "5. Retención de datos",
+          "intro": "Retenemos tus datos personales durante los siguientes períodos:",
+          "items": [
+            "Datos de cuenta: Hasta que elimines tu cuenta, más 30 días para recuperación de respaldo",
+            "Resultados de escaneo: El período de retención depende de tu plan - Gratis: 30 días, Standard: 6 meses, Business: 1 año desde la fecha del escaneo, o hasta la eliminación de la cuenta",
+            "Registros de facturación: 10 años según lo requerido por la ley fiscal francesa",
+            "Registros técnicos: 90 días para fines de seguridad y depuración",
+            "Tokens de integración: Hasta que desconectes la integración o elimines tu cuenta"
+          ]
+        },
+        "processors": {
+          "title": "6. Encargados del tratamiento y terceros",
+          "intro": "Utilizamos los siguientes proveedores de servicios de terceros (encargados del tratamiento) para entregar nuestros servicios:",
+          "tableHeaders": ["Proveedor", "Propósito", "Ubicación"],
+          "rows": [
+            ["Google Cloud Platform", "Alojamiento en la nube e infraestructura", "UE (europe-west1)"],
+            ["Firebase (Google)", "Autenticación y base de datos", "UE"],
+            ["Stripe", "Procesamiento de pagos", "EE.UU. (con SCCs de la UE)"],
+            ["OpenAI", "Análisis de PDF con IA", "EE.UU. (con SCCs de la UE)"]
+          ],
+          "note": "Todos los encargados están vinculados por Acuerdos de Procesamiento de Datos (DPAs) y se implementan las salvaguardas apropiadas para las transferencias internacionales."
+        },
+        "transfers": {
+          "title": "7. Transferencias internacionales de datos",
+          "intro": "Algunos de nuestros encargados del tratamiento están ubicados fuera del Espacio Económico Europeo (EEE). Cuando transferimos datos personales fuera del EEE, nos aseguramos de que existan salvaguardas apropiadas:",
+          "items": [
+            "Cláusulas Contractuales Tipo (SCCs): Términos contractuales aprobados por la UE para transferencias de datos",
+            "Decisiones de adecuación: Para transferencias a países con niveles adecuados de protección de datos",
+            "Medidas técnicas adicionales: Encriptación y controles de acceso"
+          ]
+        },
+        "rights": {
+          "title": "8. Tus derechos bajo el RGPD",
+          "intro": "Bajo el Reglamento General de Protección de Datos (RGPD), tienes los siguientes derechos:",
+          "items": [
+            "Derecho de acceso (Art. 15): Solicitar una copia de tus datos personales",
+            "Derecho de rectificación (Art. 16): Solicitar la corrección de datos inexactos",
+            "Derecho de supresión (Art. 17): Solicitar la eliminación de tus datos (\"derecho al olvido\")",
+            "Derecho a la limitación (Art. 18): Solicitar la limitación del procesamiento",
+            "Derecho a la portabilidad de datos (Art. 20): Recibir tus datos en un formato estructurado y legible por máquina",
+            "Derecho de oposición (Art. 21): Oponerse al procesamiento basado en intereses legítimos",
+            "Derecho a retirar el consentimiento: Retirar el consentimiento en cualquier momento cuando el procesamiento se base en el consentimiento"
+          ],
+          "exerciseRights": "Para ejercer estos derechos, contáctanos en hello@your-domain.com. Responderemos dentro de un mes de recibir tu solicitud."
+        },
+        "security": {
+          "title": "9. Seguridad de los datos",
+          "intro": "Implementamos medidas técnicas y organizativas apropiadas para proteger tus datos personales, incluyendo:",
+          "items": [
+            "Encriptación de datos en tránsito (TLS/SSL) y en reposo",
+            "Autenticación segura usando Firebase Authentication",
+            "Controles de acceso y principio de mínimo privilegio",
+            "Evaluaciones de seguridad y actualizaciones regulares",
+            "Almacenamiento encriptado de credenciales y tokens sensibles",
+            "Alojamiento en Google Cloud Platform con seguridad de nivel empresarial"
+          ]
+        },
+        "cookies": {
+          "title": "10. Cookies",
+          "content": "Usamos cookies estrictamente necesarias para la autenticación y gestión de sesiones. Para más detalles, consulta nuestra Política de Cookies."
+        },
+        "complaints": {
+          "title": "11. Reclamaciones",
+          "intro": "Si crees que no hemos manejado tus datos personales correctamente, tienes derecho a presentar una reclamación ante la autoridad francesa de protección de datos:",
+          "authority": "Commission Nationale de l'Informatique et des Libertés (CNIL)",
+          "address1": "3 Place de Fontenoy",
+          "address2": "TSA 80715",
+          "address3": "75334 PARIS CEDEX 07",
+          "website": "Sitio web: www.cnil.fr"
+        },
+        "changes": {
+          "title": "12. Cambios a esta política",
+          "content1": "Podemos actualizar esta Política de Privacidad de vez en cuando para reflejar cambios en nuestras prácticas o requisitos legales. Te notificaremos cualquier cambio material publicando la política actualizada en nuestro sitio web y actualizando la fecha de \"Última actualización\".",
+          "content2": "Te animamos a revisar esta política periódicamente para mantenerte informado sobre cómo protegemos tus datos."
+        },
+        "contact": {
+          "title": "13. Contáctanos",
+          "intro": "Si tienes alguna pregunta sobre esta Política de Privacidad o nuestras prácticas de datos, contáctanos:",
+          "emailLabel": "Email:",
+          "addressLabel": "Dirección:"
+        }
+      }
+    },
+    "terms": {
+      "title": "Términos de servicio",
+      "sections": {
+        "acceptance": {
+          "title": "1. Aceptación de los términos",
+          "content1": "Al acceder o usar el sitio web y servicios de LumTrails en your-domain.com (el \"Servicio\"), aceptas estar vinculado por estos Términos de Servicio (\"Términos\"). Si no aceptas estos Términos, no puedes acceder ni usar el Servicio.",
+          "content2": "Estos Términos constituyen un acuerdo legalmente vinculante entre tú y YOUR_COMPANY_NAME, operando como LumTrails (SIRET: YOUR_SIRET_NUMBER), ubicado en YOUR_STREET_ADDRESS, YOUR_CITY_ZIP, YOUR_COUNTRY (\"nosotros\", \"nos\", \"nuestro\")."
+        },
+        "description": {
+          "title": "2. Descripción del servicio",
+          "intro": "LumTrails proporciona servicios automatizados de escaneo de accesibilidad para sitios web y documentos PDF. Nuestro Servicio incluye:",
+          "items": [
+            "Escaneo de accesibilidad web: Análisis automatizado de sitios web usando herramientas estándar de la industria incluyendo axe-core, Nu HTML Checker, Linkinator, Galen Framework y axtree",
+            "Escaneo de accesibilidad de PDF: Análisis de documentos PDF con IA para cumplimiento de accesibilidad",
+            "Informes de mejora de accesibilidad: Informes detallados que identifican problemas de accesibilidad y recomendaciones",
+            "Integraciones de terceros: Integración con GitHub, Notion y Slack para informes automatizados",
+            "Acceso a la API: Acceso programático a nuestros servicios de escaneo"
+          ],
+          "disclaimer": "Aviso importante: LumTrails proporciona Informes de Mejora de Accesibilidad, no certificaciones de cumplimiento. Nuestros escaneos automatizados identifican posibles problemas de accesibilidad pero no pueden garantizar el cumplimiento total de WCAG, la Ley de Accesibilidad Europea (EAA) u otros estándares de accesibilidad. El cumplimiento completo de accesibilidad requiere pruebas manuales, revisión por expertos, pruebas con usuarios con discapacidades y monitoreo continuo."
+        },
+        "registration": {
+          "title": "3. Registro de cuenta",
+          "intro": "Para acceder a ciertas funciones del Servicio, debes crear una cuenta. Al crear una cuenta, aceptas:",
+          "items": [
+            "Proporcionar información precisa, actual y completa",
+            "Mantener y actualizar puntualmente la información de tu cuenta",
+            "Mantener la seguridad y confidencialidad de tus credenciales de inicio de sesión",
+            "Aceptar la responsabilidad de todas las actividades que ocurran bajo tu cuenta",
+            "Notificarnos inmediatamente de cualquier acceso no autorizado a tu cuenta"
+          ],
+          "suspension": "Nos reservamos el derecho de suspender o terminar cuentas que violen estos Términos o participen en actividades sospechosas."
+        },
+        "credits": {
+          "title": "4. Planes de suscripción y créditos",
+          "creditSystem": {
+            "title": "4.1 Sistema de créditos",
+            "intro": "Nuestro Servicio opera con un sistema basado en créditos:",
+            "items": ["Créditos de escaneo web: 1 crédito por módulo de escaneo usado", "Créditos de escaneo de PDF: 1 crédito por página analizada"]
+          },
+          "plans": {
+            "title": "4.2 Planes de suscripción",
+            "content": "Ofrecemos varios planes de suscripción con diferentes asignaciones de créditos. Los detalles de los planes y precios actuales están disponibles en nuestra página de Precios."
+          },
+          "renewal": {
+            "title": "4.3 Renovación de créditos",
+            "content": "Para los planes de pago, los créditos se asignan mensualmente y se renuevan al comienzo de cada ciclo de facturación. Los usuarios del plan gratuito reciben créditos semanales que se renuevan cada lunes a las 00:00 CET. Los créditos no utilizados no se transfieren al siguiente período."
+          },
+          "billing": {
+            "title": "4.4 Facturación",
+            "content": "Los pagos se procesan de forma segura a través de Stripe. Al suscribirte a un plan de pago, nos autorizas a cobrar a tu método de pago de forma recurrente hasta que canceles tu suscripción."
+          }
+        },
+        "cancellation": {
+          "title": "5. Cancelación y reembolsos",
+          "cancellationTitle": "5.1 Cancelación",
+          "cancellationContent": "Puedes cancelar tu suscripción en cualquier momento a través de la configuración de tu cuenta o contactándonos. Al cancelar, conservarás el acceso a las funciones de tu plan actual hasta el final de tu período de facturación.",
+          "refundTitle": "5.2 Política de reembolso",
+          "refundIntro": "De acuerdo con la ley francesa de protección al consumidor (Code de la consommation):",
+          "refundItems": [
+            "Para servicios digitales, el derecho de desistimiento expira una vez que el servicio se ha ejecutado completamente con tu consentimiento previo expreso",
+            "Al usar créditos de escaneo, reconoces que el servicio se ha ejecutado y renuncias a tu derecho de desistimiento para esos créditos"
+          ],
+          "refundContact": "Para solicitar un reembolso, contáctanos en hello@your-domain.com."
+        },
+        "acceptableUse": {
+          "title": "6. Uso aceptable",
+          "intro": "Aceptas usar el Servicio solo para fines legales y de acuerdo con estos Términos. Aceptas no:",
+          "items": [
+            "Usar el Servicio para escanear sitios web o documentos a los que no tienes autorización para acceder o probar",
+            "Usar el Servicio de cualquier manera que pueda dañar, deshabilitar o perjudicar el Servicio",
+            "Intentar obtener acceso no autorizado a cualquier parte del Servicio o sus sistemas",
+            "Usar scripts automatizados o bots para acceder al Servicio fuera de nuestra API oficial",
+            "Realizar ingeniería inversa, descompilar o intentar extraer el código fuente del Servicio",
+            "Usar el Servicio para cualquier propósito ilegal o no autorizado",
+            "Transmitir malware, virus u otro código dañino",
+            "Revender o redistribuir el Servicio sin nuestro permiso por escrito",
+            "Usar el Servicio de manera que infrinja los derechos de otros"
+          ]
+        },
+        "ip": {
+          "title": "7. Propiedad intelectual",
+          "ourIp": {
+            "title": "7.1 Nuestra propiedad intelectual",
+            "content": "El Servicio, incluyendo su contenido original, funciones, funcionalidad, diseño y marca (excluyendo el contenido proporcionado por el usuario), es y seguirá siendo propiedad exclusiva de YOUR_COMPANY_NAME y está protegido por las leyes de propiedad intelectual francesas e internacionales."
+          },
+          "yourContent": {
+            "title": "7.2 Tu contenido",
+            "content": "Conservas la propiedad de cualquier URL, PDF u otro contenido que envíes para escanear. Al usar el Servicio, nos otorgas una licencia limitada para procesar este contenido únicamente con el propósito de proporcionar el Servicio."
+          },
+          "scanResults": {
+            "title": "7.3 Resultados de escaneo",
+            "content": "Los resultados de escaneo e informes generados para tu contenido se proporcionan para tu uso. Puedes usar, compartir e incorporar estos informes en tu documentación de mejora de accesibilidad."
+          }
+        },
+        "availability": {
+          "title": "8. Disponibilidad del servicio y modificaciones",
+          "availabilityTitle": "8.1 Disponibilidad del servicio",
+          "availabilityContent": "Nos esforzamos por mantener una alta disponibilidad del Servicio pero no garantizamos acceso ininterrumpido. El Servicio puede estar temporalmente no disponible debido a mantenimiento, actualizaciones o circunstancias fuera de nuestro control.",
+          "modificationsTitle": "8.2 Modificaciones",
+          "modificationsContent": "Nos reservamos el derecho de modificar, suspender o descontinuar cualquier aspecto del Servicio en cualquier momento. Proporcionaremos un aviso razonable de cambios significativos que puedan afectar tu uso del Servicio."
+        },
+        "liability": {
+          "title": "9. Limitación de responsabilidad",
+          "intro": "En la máxima medida permitida por la ley aplicable:",
+          "items": [
+            "El Servicio se proporciona \"tal cual\" y \"según disponibilidad\" sin garantías de ningún tipo, expresas o implícitas",
+            "No garantizamos que el Servicio esté libre de errores, sea seguro o ininterrumpido",
+            "No garantizamos que nuestros escaneos detecten todos los problemas de accesibilidad",
+            "No somos responsables de ningún daño que surja de tu uso o incapacidad de usar el Servicio",
+            "Nuestra responsabilidad total no excederá el monto que pagaste por el Servicio en los doce (12) meses anteriores a la reclamación"
+          ],
+          "note": "Estas limitaciones no afectan tus derechos legales como consumidor según la ley francesa o de la UE."
+        },
+        "indemnification": {
+          "title": "10. Indemnización",
+          "content": "Aceptas indemnizar y mantener indemne a YOUR_COMPANY_NAME, LumTrails y sus afiliados de cualquier reclamación, daño, pérdida o gasto que surja de tu uso del Servicio, tu violación de estos Términos o tu infracción de cualquier derecho de terceros."
+        },
+        "privacy": {
+          "title": "11. Privacidad y protección de datos",
+          "content1": "Tu privacidad es importante para nosotros. Nuestra recopilación y uso de datos personales se rige por nuestra Política de Privacidad, que se incorpora a estos Términos por referencia.",
+          "content2": "Al usar el Servicio, consientes la recopilación y uso de tus datos como se describe en la Política de Privacidad."
+        },
+        "thirdParty": {
+          "title": "12. Servicios de terceros",
+          "content": "El Servicio puede integrarse con servicios de terceros (GitHub, Notion, Slack). Tu uso de estas integraciones está sujeto a los respectivos términos y políticas de privacidad de terceros. No somos responsables de las prácticas de los servicios de terceros."
+        },
+        "termination": {
+          "title": "13. Terminación",
+          "content1": "Podemos terminar o suspender tu cuenta y acceso al Servicio inmediatamente, sin previo aviso, si incumples estos Términos o participas en actividades que puedan dañar el Servicio u otros usuarios.",
+          "content2": "Al terminar, tu derecho a usar el Servicio cesará inmediatamente. Las secciones de estos Términos que por su naturaleza deban sobrevivir a la terminación permanecerán en vigor."
+        },
+        "changes": {
+          "title": "14. Cambios a los términos",
+          "content1": "Nos reservamos el derecho de modificar estos Términos en cualquier momento. Te notificaremos los cambios materiales publicando los Términos actualizados en el Servicio y actualizando la fecha de \"Última actualización\".",
+          "content2": "Tu uso continuado del Servicio después de que los cambios entren en vigor constituye la aceptación de los Términos revisados."
+        },
+        "governing": {
+          "title": "15. Ley aplicable y jurisdicción",
+          "content1": "Estos Términos se rigen e interpretan de acuerdo con las leyes de Francia, sin tener en cuenta sus disposiciones sobre conflictos de leyes.",
+          "content2": "Cualquier disputa que surja bajo estos Términos estará sujeta a la jurisdicción exclusiva de los tribunales de YOUR_CITY, YOUR_COUNTRY.",
+          "content3": "Para los consumidores residentes en la Unión Europea, también puedes usar la plataforma de Resolución de Disputas en Línea de la Comisión Europea:"
+        },
+        "severability": {
+          "title": "16. Divisibilidad",
+          "content": "Si alguna disposición de estos Términos se considera inaplicable o inválida, esa disposición se modificará en la medida mínima necesaria para hacerla aplicable, y las disposiciones restantes continuarán en pleno vigor y efecto."
+        },
+        "contact": {
+          "title": "17. Información de contacto",
+          "intro": "Para cualquier pregunta sobre estos Términos de Servicio, contáctanos:"
+        }
+      }
+    },
+    "cookies": {
+      "title": "Política de cookies",
+      "intro": "Esta Política de Cookies explica cómo LumTrails usa cookies y tecnologías similares cuando visitas nuestro sitio web en your-domain.com. Esta política cumple con la Directiva de Privacidad Electrónica de la UE (2002/58/CE) y el Reglamento General de Protección de Datos (RGPD).",
+      "whatAreCookies": {
+        "title": "¿Qué son las cookies?",
+        "content1": "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo (ordenador, tableta o teléfono móvil) cuando visitas un sitio web. Se usan ampliamente para hacer que los sitios web funcionen más eficientemente y para proporcionar información a los propietarios de sitios web.",
+        "content2": "Las cookies pueden ser \"persistentes\" (permanecen en tu dispositivo hasta que expiran o se eliminan) o cookies de \"sesión\" (se eliminan cuando cierras tu navegador)."
+      },
+      "cookiesWeUse": {
+        "title": "Cookies que usamos",
+        "intro": "LumTrails usa solo cookies estrictamente necesarias que son esenciales para el funcionamiento de nuestro sitio web. No usamos ninguna cookie de marketing, publicidad o seguimiento no esencial.",
+        "strictlyNecessary": {
+          "title": "Cookies estrictamente necesarias",
+          "description": "Estas cookies son esenciales para que puedas navegar por el sitio web y usar sus funciones. Sin estas cookies, los servicios que has solicitado no pueden proporcionarse.",
+          "tableHeaders": ["Nombre de la cookie", "Propósito", "Duración", "Proveedor"],
+          "rows": [
+            ["__session", "Sesión de autenticación de usuario", "Sesión", "Firebase"],
+            ["firebase-auth-token", "Token de autenticación segura", "1 hora", "Firebase"],
+            ["theme-preference", "Almacena la preferencia de modo oscuro/claro", "Persistente", "LumTrails"]
+          ]
+        }
+      },
+      "thirdParty": {
+        "title": "Cookies de terceros",
+        "content1": "Usamos Firebase Authentication proporcionado por Google para el inicio de sesión seguro de usuarios. Firebase puede establecer cookies necesarias para el proceso de autenticación. Estas se clasifican como cookies estrictamente necesarias ya que son esenciales para que el servicio funcione.",
+        "content2": "Si usas nuestras funciones de pago, Stripe (nuestro procesador de pagos) puede establecer cookies necesarias para el procesamiento seguro de pagos.",
+        "weDoNotUse": "No usamos:",
+        "items": [
+          "Google Analytics u otras cookies de análisis",
+          "Cookies de publicidad o marketing",
+          "Píxeles de seguimiento de redes sociales",
+          "Herramientas de grabación de sesiones",
+          "Cookies de pruebas A/B"
+        ]
+      },
+      "consent": {
+        "title": "Consentimiento de cookies",
+        "content1": "Dado que LumTrails solo usa cookies estrictamente necesarias que son esenciales para que el sitio web funcione, no estamos obligados a obtener tu consentimiento según la Directiva de Privacidad Electrónica. Estas cookies no pueden deshabilitarse ya que son necesarias para proporcionar el servicio.",
+        "content2": "Si en el futuro decidimos usar cookies no esenciales (como análisis), implementaremos un mecanismo adecuado de consentimiento de cookies y actualizaremos esta política en consecuencia."
+      },
+      "managing": {
+        "title": "Gestión de cookies",
+        "intro": "La mayoría de los navegadores web te permiten controlar las cookies a través de su configuración. Puedes:",
+        "items": [
+          "Ver qué cookies están almacenadas en tu dispositivo",
+          "Eliminar todas o cookies específicas",
+          "Bloquear cookies de sitios web específicos",
+          "Bloquear todas las cookies (nota: esto puede afectar la funcionalidad del sitio web)"
+        ],
+        "browserLinks": "Aquí hay enlaces a las instrucciones de gestión de cookies para navegadores populares:",
+        "browsers": ["Google Chrome", "Mozilla Firefox", "Safari", "Microsoft Edge"],
+        "note": "Ten en cuenta que si bloqueas o eliminas las cookies estrictamente necesarias, es posible que no puedas usar ciertas funciones de nuestro sitio web, particularmente aquellas que requieren autenticación."
+      },
+      "localStorage": {
+        "title": "Almacenamiento local",
+        "intro": "Además de las cookies, usamos el almacenamiento local de tu navegador para guardar preferencias como:",
+        "items": ["Preferencia de tema (modo oscuro/claro)", "Preferencias de estado de la interfaz"],
+        "note": "Los datos del almacenamiento local permanecen en tu dispositivo y no se transmiten a nuestros servidores."
+      },
+      "updates": {
+        "title": "Actualizaciones a esta política",
+        "content": "Podemos actualizar esta Política de Cookies de vez en cuando. Cualquier cambio se publicará en esta página con una fecha de revisión actualizada. Te animamos a revisar esta política periódicamente."
+      },
+      "contact": {
+        "title": "Contáctanos",
+        "intro": "Si tienes preguntas sobre nuestro uso de cookies, contáctanos:"
+      }
+    },
+    "legalNotice": {
+      "title": "Aviso legal",
+      "intro": "De acuerdo con las disposiciones de la Ley francesa N° 2004-575 de 21 de junio de 2004 para la Confianza en la Economía Digital (LCEN), el Artículo 5 de la Directiva de Comercio Electrónico de la UE 2000/31/CE y las regulaciones francesas aplicables, se proporciona la siguiente información a los usuarios del sitio web your-domain.com.",
+      "sections": {
+        "publisher": {
+          "title": "1. Editor del sitio web",
+          "tableHeaders": ["Campo", "Valor"],
+          "rows": [
+            ["Nombre comercial:", "YOUR_COMPANY_NAME"],
+            ["Forma jurídica:", "Micro-entreprise (Negocio individual – Francia)"],
+            ["Dirección:", "YOUR_STREET_ADDRESS, YOUR_CITY_ZIP, YOUR_COUNTRY"],
+            ["SIRET:", "YOUR_SIRET_NUMBER"],
+            ["Email:", "hello@your-domain.com"],
+            ["IVA:", "No aplicable (Micro-entreprise exenta de IVA – Artículo 293 B del Código Tributario Francés)"]
+          ]
+        },
+        "hosting": {
+          "title": "2. Proveedor de alojamiento",
+          "provider": "Google Cloud Platform (Firebase)",
+          "company": "Google Ireland Limited",
+          "address1": "Gordon House, Barrow Street",
+          "address2": "Dublin 4, Irlanda",
+          "website": "cloud.google.com",
+          "serverLocation": "Ubicación del servidor: Europa (europe-west1 – Bélgica)"
+        },
+        "purpose": {
+          "title": "3. Propósito del sitio web",
+          "intro": "LumTrails proporciona servicios automatizados de escaneo de accesibilidad para sitios web y documentos PDF. Nuestra plataforma genera Informes de Mejora de Accesibilidad para ayudar a los usuarios a identificar y realizar un seguimiento del progreso hacia el cumplimiento de:",
+          "items": [
+            "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1 Nivel AA",
+            "Directiva de Accesibilidad Web de la UE (2016/2102)",
+            "Ley de Accesibilidad Europea (EAA)"
+          ],
+          "disclaimer": "Importante: LumTrails proporciona Informes de Mejora de Accesibilidad, no certificaciones de cumplimiento. Nuestros escaneos automatizados ayudan a identificar áreas de mejora pero no garantizan el cumplimiento total de accesibilidad. El cumplimiento completo requiere pruebas manuales, revisión por expertos y esfuerzos de mejora continua."
+        },
+        "ip": {
+          "title": "4. Propiedad intelectual",
+          "content1": "Todo el contenido de este sitio web, incluyendo pero no limitado a texto, gráficos, logotipos, imágenes, software y la estructura general, es propiedad exclusiva de YOUR_COMPANY_NAME o se usa con el permiso de los respectivos titulares de derechos.",
+          "content2": "Cualquier reproducción, representación, modificación, publicación o adaptación de todo o parte de los elementos del sitio, independientemente del medio o proceso utilizado, está prohibida sin la autorización previa por escrito de YOUR_COMPANY_NAME.",
+          "content3": "El nombre y logotipo de LumTrails son marcas comerciales. Cualquier uso no autorizado puede constituir una infracción según la ley de propiedad intelectual francesa (Code de la propriété intellectuelle)."
+        },
+        "personalData": {
+          "title": "5. Datos personales",
+          "content1": "El tratamiento de datos personales en este sitio web se realiza de acuerdo con el Reglamento General de Protección de Datos (RGPD) y la Ley francesa N° 78-17 de 6 de enero de 1978 (Loi Informatique et Libertés).",
+          "content2": "Para información completa sobre cómo recopilamos, usamos y protegemos tus datos personales, consulta nuestra Política de Privacidad."
+        },
+        "cookiesSection": {
+          "title": "6. Cookies",
+          "content": "Este sitio web usa cookies estrictamente necesarias para su funcionamiento. Para más información, consulta nuestra Política de Cookies."
+        },
+        "applicableLaw": {
+          "title": "7. Ley aplicable",
+          "content1": "Estos avisos legales se rigen por la ley francesa. Cualquier disputa que surja del uso de este sitio web estará sujeta a la jurisdicción exclusiva de los tribunales competentes de YOUR_CITY, YOUR_COUNTRY.",
+          "content2": "Para los consumidores residentes en la Unión Europea, la Comisión Europea proporciona una plataforma de resolución de disputas en línea:"
+        },
+        "contact": {
+          "title": "8. Contacto",
+          "intro": "Para cualquier pregunta o inquietud sobre estos avisos legales, contáctanos:",
+          "contactFormLink": "También puedes usar nuestro Formulario de Contacto para comunicarte con nosotros."
+        }
+      }
+    },
+    "accessibilityStatement": {
+      "title": "Declaración de accesibilidad",
+      "subtitle": "Nuestro compromiso con la accesibilidad digital",
+      "intro": "LumTrails está comprometido a garantizar la accesibilidad digital para personas con discapacidades. Estamos mejorando continuamente la experiencia del usuario para todos y aplicando los estándares de accesibilidad relevantes.",
+      "introApplies": "Esta declaración de accesibilidad se aplica al sitio web de LumTrails en your-domain.com.",
+      "conformance": {
+        "title": "Estado de conformidad",
+        "badge": "Buscando conformidad con WCAG 2.1 Nivel AA",
+        "badgeDescription": "LumTrails aspira a cumplir con los estándares WCAG 2.1 Nivel AA a través de pruebas automatizadas y manuales.",
+        "content1": "Las Pautas de Accesibilidad para el Contenido Web (WCAG) definen requisitos para que los diseñadores y desarrolladores mejoren la accesibilidad para personas con discapacidades. Define tres niveles de conformidad: Nivel A, Nivel AA y Nivel AAA.",
+        "content2": "LumTrails se esfuerza por cumplir con WCAG 2.1 Nivel AA. Hemos realizado pruebas de accesibilidad automatizadas y manuales exhaustivas y creemos que el sitio web cumple con estos estándares. Sin embargo, la accesibilidad es un proceso continuo y trabajamos continuamente para mejorar."
+      },
+      "testing": {
+        "title": "Metodología de pruebas",
+        "intro": "LumTrails fue probado usando las siguientes herramientas y métodos:",
+        "automated": {
+          "title": "Herramientas de pruebas automatizadas",
+          "items": [
+            "axe-core: Motor de pruebas de accesibilidad estándar de la industria para violaciones de WCAG 2.1",
+            "Nu HTML Checker: Servicio de validación de marcado W3C para conformidad HTML",
+            "Linkinator: Validación de estado de enlaces para detección de enlaces rotos",
+            "Galen Framework: Pruebas de diseño y diseño responsivo",
+            "Análisis del árbol de accesibilidad: Verificación de compatibilidad con lectores de pantalla vía Playwright"
+          ]
+        },
+        "manual": {
+          "title": "Pruebas manuales",
+          "items": [
+            "Pruebas de navegación solo con teclado",
+            "Pruebas con lectores de pantalla (NVDA, VoiceOver)",
+            "Verificación de contraste de color",
+            "Pruebas de redimensionamiento de texto y zoom",
+            "Verificación de gestión del foco"
+          ]
+        },
+        "browsers": {
+          "title": "Navegadores y tecnologías de asistencia probadas",
+          "items": [
+            "Chrome con NVDA en Windows",
+            "Safari con VoiceOver en macOS",
+            "Firefox con NVDA en Windows",
+            "Chrome en Android con TalkBack",
+            "Safari en iOS con VoiceOver"
+          ]
+        }
+      },
+      "technical": {
+        "title": "Especificaciones técnicas",
+        "intro": "La accesibilidad de LumTrails se basa en las siguientes tecnologías:",
+        "items": ["HTML5", "WAI-ARIA 1.2", "CSS3", "JavaScript (React)"],
+        "note": "Estas tecnologías se utilizan para la conformidad con los estándares de accesibilidad usados."
+      },
+      "features": {
+        "title": "Características de accesibilidad",
+        "intro": "LumTrails incluye las siguientes características de accesibilidad:",
+        "items": [
+          "Saltar al contenido principal: Permite a los usuarios de teclado omitir la navegación",
+          "Modo oscuro: Reduce la fatiga visual y mejora la legibilidad en condiciones de poca luz",
+          "HTML semántico: Jerarquía de encabezados adecuada y regiones de referencia para lectores de pantalla",
+          "Navegación por teclado: Todos los elementos interactivos son accesibles mediante teclado",
+          "Indicadores de foco: Estados de foco claros y visibles en todos los elementos interactivos",
+          "Etiquetas de formulario: Todos los campos de formulario tienen etiquetas asociadas",
+          "Mensajes de error: Los errores de formulario se identifican claramente con sugerencias útiles",
+          "Diseño responsivo: El contenido se adapta a diferentes tamaños de pantalla y niveles de zoom",
+          "Anuncios de estado: Las notificaciones toast usan regiones ARIA live"
+        ]
+      },
+      "wcagDetails": {
+        "title": "Detalles de cumplimiento WCAG 2.1 Nivel AA",
+        "intro": "La siguiente tabla detalla nuestra conformidad con cada criterio de éxito de WCAG 2.1 Nivel A y AA.",
+        "tableHeaders": ["ID", "Criterio", "Nivel", "Estado"],
+        "categories": {
+          "perceivable": "Perceptible",
+          "operable": "Operable",
+          "understandable": "Comprensible",
+          "robust": "Robusto"
+        },
+        "status": {
+          "pass": "Aprobado",
+          "partial": "Parcial",
+          "na": "N/A"
+        }
+      },
+      "knownIssues": {
+        "title": "Problemas de accesibilidad conocidos",
+        "content": "Actualmente no tenemos conocimiento de ninguna barrera de accesibilidad significativa en el sitio web de LumTrails. Si encuentras algún problema, por favor háganoslo saber."
+      },
+      "feedback": {
+        "title": "Comentarios y contacto",
+        "intro": "Agradecemos tus comentarios sobre la accesibilidad de LumTrails. Por favor, háganoslo saber si encuentras barreras de accesibilidad:",
+        "responseTime": "Nuestro objetivo es responder a los comentarios sobre accesibilidad en 5 días hábiles."
+      },
+      "enforcement": {
+        "title": "Procedimiento de aplicación",
+        "content1": "Si no estás satisfecho con nuestra respuesta a tu inquietud sobre accesibilidad, puedes contactar al Defensor de los Derechos francés (Défenseur des droits):",
+        "authority": "Défenseur des droits",
+        "website": "www.defenseurdesdroits.fr"
+      }
+    },
+    "dpa": {
+      "title": "Acuerdo de procesamiento de datos",
+      "intro": "Este Acuerdo de Procesamiento de Datos (\"DPA\") forma parte de los Términos de Servicio entre LumTrails (operado por YOUR_COMPANY_NAME) y el Cliente para la prestación de servicios de escaneo de accesibilidad.",
+      "downloadButton": "Descargar DPA (PDF)",
+      "sections": {
+        "definitions": {
+          "title": "1. Definiciones",
+          "intro": "En este Acuerdo de Procesamiento de Datos (\"DPA\"):",
+          "items": [
+            "\"Responsable\" significa la entidad que determina los propósitos y medios del procesamiento de Datos Personales (el Cliente).",
+            "\"Encargado\" significa la entidad que procesa Datos Personales en nombre del Responsable (LumTrails).",
+            "\"Datos Personales\" significa cualquier información relacionada con una persona natural identificada o identificable.",
+            "\"Procesamiento\" significa cualquier operación realizada sobre Datos Personales, ya sea por medios automatizados o no.",
+            "\"Subencargado\" significa cualquier encargado contratado por el Encargado para procesar Datos Personales en nombre del Responsable.",
+            "\"Interesado\" significa el individuo al que se refieren los Datos Personales.",
+            "\"RGPD\" significa el Reglamento General de Protección de Datos (UE) 2016/679.",
+            "\"Servicios\" significa los servicios de escaneo de accesibilidad proporcionados por LumTrails."
+          ]
+        },
+        "scope": {
+          "title": "2. Alcance y propósito",
+          "intro": "Este DPA se aplica al procesamiento de Datos Personales por LumTrails (Encargado) en nombre del Cliente (Responsable) en relación con la prestación de los Servicios.",
+          "subjectMatter": {
+            "title": "2.1 Objeto",
+            "content": "El objeto del procesamiento es la prestación de servicios automatizados de escaneo de accesibilidad para sitios web y documentos PDF."
+          },
+          "nature": {
+            "title": "2.2 Naturaleza y propósito del procesamiento",
+            "intro": "LumTrails procesa Datos Personales para los siguientes propósitos:",
+            "items": [
+              "Realizar escaneos de accesibilidad en URLs y documentos proporcionados por el Cliente",
+              "Generar y almacenar informes de accesibilidad",
+              "Gestionar cuentas de Cliente y autenticación",
+              "Procesar información de facturación y suscripción",
+              "Entregar resultados de escaneo a plataformas de terceros integradas cuando esté autorizado"
+            ]
+          },
+          "categories": {
+            "title": "2.3 Categorías de interesados",
+            "items": [
+              "Empleados del Cliente y usuarios autorizados",
+              "Individuos cuyos datos pueden aparecer en URLs o documentos escaneados"
+            ]
+          },
+          "types": {
+            "title": "2.4 Tipos de datos personales",
+            "items": [
+              "Información de cuenta (dirección de email, nombre)",
+              "Datos de autenticación",
+              "Datos de uso e historial de escaneos",
+              "Contenido de URLs y documentos PDF escaneados (que pueden contener Datos Personales)"
+            ]
+          }
+        },
+        "obligations": {
+          "title": "3. Obligaciones del encargado",
+          "intro": "LumTrails, como Encargado, se compromete a:",
+          "lawful": {
+            "title": "3.1 Procesamiento legal",
+            "items": [
+              "Procesar Datos Personales solo según instrucciones documentadas del Responsable",
+              "Informar inmediatamente al Responsable si creemos que una instrucción infringe el RGPD",
+              "Procesar Datos Personales solo según sea necesario para proporcionar los Servicios"
+            ]
+          },
+          "confidentiality": {
+            "title": "3.2 Confidencialidad",
+            "items": [
+              "Asegurar que las personas autorizadas para procesar Datos Personales se hayan comprometido con la confidencialidad",
+              "Limitar el acceso a los Datos Personales al personal que requiere acceso para cumplir con los Servicios"
+            ]
+          },
+          "security": {
+            "title": "3.3 Medidas de seguridad",
+            "intro": "Implementar medidas técnicas y organizativas apropiadas incluyendo:",
+            "items": [
+              "Encriptación de Datos Personales en tránsito y en reposo",
+              "Controles de acceso y requisitos de autenticación",
+              "Evaluaciones y pruebas de seguridad regulares",
+              "Procedimientos de detección y respuesta a incidentes",
+              "Capacidades de respaldo y recuperación de datos"
+            ]
+          },
+          "subprocessors": {
+            "title": "3.4 Subencargados",
+            "items": [
+              "No contratar a otro encargado sin la autorización previa por escrito del Responsable",
+              "Mantener una lista de Subencargados aprobados (ver Sección 5)",
+              "Asegurar que los Subencargados estén vinculados por obligaciones equivalentes de protección de datos",
+              "Notificar al Responsable cualquier cambio previsto en los Subencargados"
+            ]
+          },
+          "assistance": {
+            "title": "3.5 Asistencia al Responsable",
+            "items": [
+              "Asistir al Responsable en responder a solicitudes de derechos de los Interesados",
+              "Asistir con evaluaciones de impacto de protección de datos cuando sea requerido",
+              "Asistir con consultas previas a las autoridades de supervisión",
+              "Poner a disposición toda la información necesaria para demostrar el cumplimiento"
+            ]
+          }
+        },
+        "rights": {
+          "title": "4. Derechos de los interesados",
+          "intro": "LumTrails asistirá al Responsable en cumplir sus obligaciones de responder a las solicitudes de los Interesados ejerciendo sus derechos bajo el RGPD, incluyendo:",
+          "items": [
+            "Derecho de acceso (Art. 15): Proporcionar acceso a los Datos Personales",
+            "Derecho de rectificación (Art. 16): Corregir datos inexactos",
+            "Derecho de supresión (Art. 17): Eliminar Datos Personales a solicitud",
+            "Derecho a la limitación (Art. 18): Restringir el procesamiento según sea requerido",
+            "Derecho a la portabilidad de datos (Art. 20): Exportar datos en formato legible por máquina",
+            "Derecho de oposición (Art. 21): Cesar el procesamiento ante objeción"
+          ],
+          "response": "El Responsable debe enviar las solicitudes de los Interesados a hello@your-domain.com. LumTrails responderá dentro de las 72 horas de recibir dichas solicitudes."
+        },
+        "subprocessorsList": {
+          "title": "5. Subencargados",
+          "intro": "El Responsable autoriza por la presente a LumTrails a contratar los siguientes Subencargados:",
+          "tableHeaders": ["Subencargado", "Propósito", "Ubicación"],
+          "rows": [
+            ["Google Cloud Platform", "Infraestructura en la nube y alojamiento", "UE (Bélgica)"],
+            ["Firebase (Google)", "Autenticación y base de datos", "UE"],
+            ["Stripe, Inc.", "Procesamiento de pagos", "EE.UU. (SCCs implementados)"],
+            ["OpenAI", "Análisis de PDF con IA", "EE.UU. (SCCs implementados)"]
+          ],
+          "notification": "LumTrails notificará al Responsable cualquier adición o reemplazo previsto a esta lista con al menos 30 días de antelación, permitiendo al Responsable objetar dichos cambios."
+        },
+        "transfers": {
+          "title": "6. Transferencias internacionales de datos",
+          "intro": "Cuando los Datos Personales se transfieren fuera del Espacio Económico Europeo (EEE), LumTrails asegura que existan salvaguardas apropiadas:",
+          "items": [
+            "Cláusulas Contractuales Tipo (SCCs): Cláusulas contractuales aprobadas por la UE para transferencias internacionales",
+            "Medidas complementarias: Medidas técnicas y organizativas adicionales según lo recomendado por el EDPB",
+            "Evaluaciones de impacto de transferencia: Evaluación de los marcos legales de terceros países"
+          ]
+        },
+        "incidents": {
+          "title": "7. Incidentes de seguridad",
+          "notification": {
+            "title": "7.1 Notificación",
+            "content": "LumTrails notificará al Responsable sin demora indebida (y en cualquier caso dentro de las 72 horas) después de tener conocimiento de una violación de Datos Personales."
+          },
+          "content": {
+            "title": "7.2 Contenido de la notificación de violación",
+            "intro": "La notificación incluirá:",
+            "items": [
+              "Descripción de la naturaleza de la violación",
+              "Categorías y número aproximado de Interesados afectados",
+              "Categorías y número aproximado de registros de Datos Personales afectados",
+              "Nombre y datos de contacto del punto de contacto de protección de datos",
+              "Consecuencias probables de la violación",
+              "Medidas tomadas o propuestas para abordar la violación"
+            ]
+          },
+          "cooperation": {
+            "title": "7.3 Cooperación",
+            "content": "LumTrails cooperará con el Responsable y tomará medidas razonables para asistir en la investigación, mitigación y remediación de cualquier incidente de seguridad."
+          }
+        },
+        "audit": {
+          "title": "8. Derechos de auditoría",
+          "intro": "LumTrails pondrá a disposición del Responsable toda la información necesaria para demostrar el cumplimiento de este DPA y permitirá y contribuirá a auditorías e inspecciones realizadas por el Responsable o un auditor designado por el Responsable.",
+          "conditions": "Las auditorías serán:",
+          "items": [
+            "Realizadas con aviso previo razonable (mínimo 30 días)",
+            "Limitadas a una vez al año a menos que sea requerido por una autoridad de supervisión",
+            "Realizadas durante el horario comercial normal",
+            "Sujetas a obligaciones de confidencialidad razonables"
+          ]
+        },
+        "retention": {
+          "title": "9. Retención y eliminación de datos",
+          "retentionPeriod": {
+            "title": "9.1 Período de retención",
+            "content": "LumTrails retiene los Datos Personales durante la duración del acuerdo de Servicios y por el período necesario para cumplir con las obligaciones legales (consulta nuestra Política de Privacidad para períodos de retención específicos)."
+          },
+          "deletion": {
+            "title": "9.2 Eliminación al terminar",
+            "intro": "Al terminar el acuerdo de Servicios, LumTrails, a elección del Responsable:",
+            "items": [
+              "Eliminará todos los Datos Personales (y confirmará la eliminación por escrito), o",
+              "Devolverá todos los Datos Personales al Responsable en un formato estructurado y de uso común"
+            ],
+            "note": "Esta obligación no se aplica en la medida en que LumTrails esté obligado a retener Datos Personales según la ley aplicable."
+          }
+        },
+        "liability": {
+          "title": "10. Responsabilidad",
+          "content1": "La responsabilidad de cada parte bajo este DPA está sujeta a las limitaciones y exclusiones de responsabilidad establecidas en los Términos de Servicio.",
+          "content2": "Nada en este DPA limitará la responsabilidad de ninguna de las partes por incumplimientos de la ley de protección de datos o por daños sufridos por los Interesados como resultado de un incumplimiento de este DPA."
+        },
+        "term": {
+          "title": "11. Vigencia y terminación",
+          "content1": "Este DPA permanecerá en vigor durante la duración del acuerdo de Servicios y terminará automáticamente al terminar los Servicios.",
+          "content2": "Las secciones relacionadas con la eliminación de datos, derechos de auditoría y responsabilidad sobrevivirán a la terminación de este DPA."
+        },
+        "governing": {
+          "title": "12. Ley aplicable",
+          "content1": "Este DPA se rige e interpreta de acuerdo con las leyes de Francia.",
+          "content2": "Los tribunales de YOUR_CITY, YOUR_COUNTRY tendrán jurisdicción exclusiva para resolver cualquier disputa que surja de este DPA."
+        },
+        "contact": {
+          "title": "13. Información de contacto",
+          "intro": "Para preguntas sobre este DPA o asuntos de procesamiento de datos:",
+          "dataProtectionContact": "Contacto de protección de datos"
+        }
+      },
+      "subtitle": "Acuerdo conforme al Artículo 28 del RGPD",
+      "signedCopy": {
+        "title": "¿Necesitas una copia firmada?",
+        "description": "Si requieres una copia contrafirmada de este DPA para tus registros o propósitos de cumplimiento, contáctanos y te proporcionaremos una versión PDF firmada.",
+        "requestLink": "Solicitar DPA firmado →"
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "description": "Encuentra respuestas a las preguntas más comunes sobre el uso de LumTrails",
+    "categories": {
+      "credits": "Créditos y Facturación",
+      "scans": "Escaneos e Informes",
+      "integrations": "Integraciones"
+    },
+    "credits": {
+      "getMore": {
+        "question": "¿Cómo puedo obtener más créditos?",
+        "answer": "Puedes obtener más créditos mejorando a un plan de suscripción superior. Visita la página de Precios para comparar planes y sus asignaciones de créditos. El plan Estándar incluye 1,000 créditos de escaneo web y 50 créditos de escaneo PDF por mes. El plan Empresarial incluye 10,000 créditos de escaneo web y 500 créditos de escaneo PDF por mes."
+      },
+      "monitor": {
+        "question": "¿Dónde puedo monitorear mi consumo de créditos?",
+        "answer": "Puedes monitorear tu consumo de créditos navegando a tu Perfil y seleccionando la pestaña \"Historial de uso\". Esta sección muestra estadísticas detalladas sobre tu uso de escaneos web y PDF a lo largo del tiempo, incluyendo desgloses mensuales y tendencias."
+      },
+      "invoice": {
+        "question": "¿Dónde puedo obtener mi factura?",
+        "answer": "Puedes acceder a tus facturas yendo a tu Perfil y seleccionando la pestaña \"Facturas\". Todas tus compras anteriores y facturas de suscripción están disponibles para descargar allí. Haz clic en cualquier factura para ver o descargar la versión PDF."
+      }
+    },
+    "scans": {
+      "pastScans": {
+        "question": "¿Dónde puedo ver mis escaneos anteriores?",
+        "answer": "Puedes ver todos tus escaneos anteriores en la sección \"Mis Escaneos\", accesible desde la barra lateral. Esta página muestra tanto tus escaneos de sitios web como los de PDF con sus resultados, fechas y estado."
+      },
+      "exportScan": {
+        "question": "¿Cómo puedo exportar un escaneo?",
+        "answer": "Hay dos formas de exportar los resultados de tu escaneo como PDF: 1) Al ver un escaneo, haz clic en el botón \"Descargar informe\" en la parte superior de la página de resultados. 2) En la sección \"Mis Escaneos\", haz clic en el botón \"PDF\" junto a cualquier escaneo para descargar el informe de accesibilidad directamente."
+      }
+    },
+    "integrations": {
+      "overview": {
+        "question": "¿Qué son las Integraciones?",
+        "answer": "Las Integraciones te permiten enviar automáticamente los resultados de tus escaneos de accesibilidad a herramientas externas como GitHub, Notion y Slack. Esto ayuda a tu equipo a mantenerse informado sobre problemas de accesibilidad sin salir de sus flujos de trabajo existentes."
+      },
+      "access": {
+        "question": "¿Cómo accedo a las Integraciones?",
+        "answer": "Navega a la sección \"Integraciones\" desde la barra lateral. Ten en cuenta que las Integraciones solo están disponibles para usuarios con una suscripción de pago activa (plan Estándar o Empresarial). Los usuarios del plan Gratis verán un mensaje para mejorar su plan."
+      },
+      "github": {
+        "title": "Integración con GitHub",
+        "connect": {
+          "question": "¿Cómo conecto GitHub?",
+          "answer": "Haz clic en el botón \"Conectar\" en la tarjeta de GitHub. Serás redirigido a GitHub para autorizar LumTrails. Una vez autorizado, volverás a la página de Integraciones con tu cuenta de GitHub conectada."
+        },
+        "configure": {
+          "question": "¿Cómo configuro la integración con GitHub?",
+          "answer": "Después de conectar, haz clic en \"Configuración avanzada\" en la tarjeta de GitHub. Puedes: 1) Seleccionar un repositorio donde se crearán los issues. 2) Habilitar/deshabilitar la creación automática de issues para escaneos web y PDF por separado. 3) Configurar filtros de severidad para solo crear issues para ciertos niveles de violación. 4) Elegir cómo se agrupan las violaciones en issues."
+        },
+        "sections": {
+          "question": "¿Qué secciones de escaneo puedo enviar a GitHub?",
+          "answer": "Puedes configurar qué secciones de escaneo crean issues en GitHub: Cumplimiento WCAG, Validación HTML, Enlaces Rotos, Árbol de Accesibilidad y Problemas de Diseño. Cada sección puede habilitarse o deshabilitarse independientemente, y puedes elegir entre crear múltiples issues o agrupar todo en un solo issue."
+        },
+        "disconnect": {
+          "question": "¿Cómo desconecto GitHub?",
+          "answer": "En el panel de configuración de GitHub, desplázate hacia abajo hasta \"Gestión de cuenta\" y haz clic en \"Desconectar GitHub\". Esto eliminará todos los tokens de autorización y restablecerá tu configuración. Puedes volver a conectar en cualquier momento."
+        }
+      },
+      "notion": {
+        "title": "Integración con Notion",
+        "connect": {
+          "question": "¿Cómo conecto Notion?",
+          "answer": "Haz clic en el botón \"Conectar\" en la tarjeta de Notion. Serás redirigido a Notion para autorizar LumTrails y seleccionar qué páginas compartir. Asegúrate de otorgar acceso a la página principal donde deseas que se creen los resultados de los escaneos."
+        },
+        "configure": {
+          "question": "¿Cómo configuro la integración con Notion?",
+          "answer": "Después de conectar, haz clic en \"Configuración avanzada\" en la tarjeta de Notion. Debes proporcionar una URL de página principal donde se crearán nuevas páginas con los resultados de los escaneos como subpáginas. Habilita/deshabilita el envío de escaneos web y PDF por separado, y configura filtros de severidad y opciones de agrupación."
+        },
+        "parentPage": {
+          "question": "¿Qué es la URL de la página principal?",
+          "answer": "La URL de la página principal es la página de Notion donde se crearán las páginas de resultados de escaneo como subpáginas. Copia la URL de tu espacio de trabajo de Notion (se ve como https://www.notion.so/workspace/page-title-xxx). Asegúrate de haber otorgado acceso a LumTrails a esta página durante el paso de autorización OAuth."
+        },
+        "disconnect": {
+          "question": "¿Cómo desconecto Notion?",
+          "answer": "En el panel de configuración de Notion, desplázate hacia abajo hasta \"Gestión de cuenta\" y haz clic en \"Desconectar Notion\". Esto elimina todos los tokens de autorización. Puedes volver a conectar en cualquier momento volviendo a autorizar."
+        }
+      },
+      "slack": {
+        "title": "Integración con Slack",
+        "connect": {
+          "question": "¿Cómo conecto Slack?",
+          "answer": "Haz clic en el botón \"Conectar\" en la tarjeta de Slack. Necesitarás proporcionar una URL de Webhook. Para obtenerla: 1) Ve a api.slack.com/apps. 2) Crea o selecciona una aplicación. 3) Habilita \"Incoming Webhooks\". 4) Añade un nuevo webhook a tu espacio de trabajo. 5) Copia la URL del webhook y pégala en LumTrails."
+        },
+        "configure": {
+          "question": "¿Cómo configuro la integración con Slack?",
+          "answer": "Después de conectar, haz clic en \"Configuración avanzada\" en la tarjeta de Slack. Puedes: 1) Opcionalmente sobrescribir el canal predeterminado. 2) Habilitar/deshabilitar notificaciones para escaneos web y PDF. 3) Configurar filtros de severidad para solo recibir alertas de ciertos niveles de violación. 4) Elegir cómo se agrupan las violaciones en los mensajes."
+        },
+        "channel": {
+          "question": "¿Puedo enviar notificaciones a diferentes canales?",
+          "answer": "¡Sí! Puedes opcionalmente especificar una sobrescritura de canal (ej., #accesibilidad o @usuario) en la configuración. Si no se especifica, las notificaciones se enviarán al canal predeterminado configurado en tu webhook de Slack."
+        },
+        "disconnect": {
+          "question": "¿Cómo desconecto Slack?",
+          "answer": "En el panel de configuración de Slack, desplázate hacia abajo hasta \"Gestión de cuenta\" y haz clic en \"Desconectar Slack\". Esto elimina la configuración del webhook. Puedes volver a conectar en cualquier momento con una nueva URL de webhook."
+        }
+      },
+      "common": {
+        "scanSections": {
+          "question": "¿Qué son las Secciones de Escaneo?",
+          "answer": "Las secciones de escaneo te permiten controlar qué partes de los resultados de tu escaneo de accesibilidad se envían a las integraciones. Las secciones disponibles incluyen: Cumplimiento WCAG (violaciones WCAG), Validación HTML (errores de marcado HTML), Enlaces Rotos (problemas de estado de enlaces), Árbol de Accesibilidad (compatibilidad con lectores de pantalla) y Problemas de Diseño (problemas de diseño responsivo)."
+        },
+        "severityFilter": {
+          "question": "¿Qué es el Filtro de Severidad?",
+          "answer": "El filtro de severidad te permite controlar qué violaciones activan acciones de integración según su nivel de severidad: Crítico (barreras de accesibilidad más severas), Serio (problemas significativos), Moderado (problemas de impacto medio) y Menor (sugerencias de bajo impacto). Puedes habilitar o deshabilitar cada nivel de severidad independientemente."
+        },
+        "grouping": {
+          "question": "¿Qué son las Opciones de Agrupación?",
+          "answer": "Las opciones de agrupación controlan cómo se organizan las violaciones: \"Por tipo de error\" crea entradas separadas para cada tipo único de violación, mientras que \"Issue único\" combina todas las violaciones en una sola entrada. Para GitHub y Slack, la opción \"Issue único\" puede causar truncamiento de contenido debido a los límites de caracteres de la plataforma. Notion no tiene tales límites."
+        },
+        "regroupViolations": {
+          "question": "¿Qué significa \"Agrupar violaciones por tipo\"?",
+          "answer": "Cuando está habilitado, las violaciones del mismo tipo de regla (ej., múltiples textos alternativos faltantes) se combinan en una sola entrada. Cuando está deshabilitado, cada violación individual crea su propia entrada. Esto ayuda a reducir el ruido de notificaciones cuando se encuentran múltiples problemas similares."
+        }
+      }
+    },
+    "stillHaveQuestions": {
+      "title": "¿Aún tienes preguntas?",
+      "description": "¿No encuentras lo que buscas? Nuestro equipo de soporte está aquí para ayudarte.",
+      "contactUs": "Contáctanos"
+    }
+  },
+  "affiliates": {
+    "title": "Programa de afiliados",
+    "subtitle": "Únete a nuestro exclusivo programa de afiliados y gana mientras ayudas a las empresas a ser accesibles",
+    "badge": "Plazas limitadas",
+    "intro": {
+      "title": "Conviértete en afiliado de LumTrails",
+      "description": "Estamos lanzando un programa de afiliados exclusivo para estudiantes ambiciosos de las mejores escuelas de negocios. Esta es tu oportunidad de adquirir experiencia real en ventas SaaS mientras ganas comisiones significativas."
+    },
+    "positions": {
+      "title": "Posiciones abiertas",
+      "description": "Actualmente estamos reclutando dos estudiantes afiliados:",
+      "germany": {
+        "title": "Alemania",
+        "description": "Una posición para un estudiante de una escuela de negocios alemana"
+      },
+      "france": {
+        "title": "Francia",
+        "description": "Una posición para un estudiante de una escuela de negocios francesa"
+      }
+    },
+    "mission": {
+      "title": "Tu misión",
+      "description": "Como afiliado de LumTrails, serás responsable de adquirir nuevos clientes a través de nuestros planes de suscripción mensual y anual. Aprovecharás tu red, creatividad y habilidades de ventas para ayudar a las empresas a descubrir nuestra solución de accesibilidad."
+    },
+    "compensation": {
+      "title": "Compensación",
+      "subtitle": "Gana 40% de comisión en cada venta",
+      "description": "Recibirás el 40% del valor de venta por cada cliente que traigas a LumTrails. Las comisiones aplican tanto a planes mensuales como anuales, pagadas como compensación freelance.",
+      "duration": "Duración de las comisiones",
+      "durationDescription": "Gana comisiones por tus clientes referidos durante un año completo. Después de 12 meses, el contrato puede renovarse según el rendimiento.",
+      "structure": "Estructura freelance",
+      "structureDescription": "Serás compensado como freelancer independiente, dándote flexibilidad y experiencia emprendedora real."
+    },
+    "mentoring": {
+      "title": "Mentoría profesional",
+      "description": "Obtén insights valiosos de profesionales experimentados",
+      "sessions": "2-3 sesiones de mentoría",
+      "sessionsDescription": "Recibirás orientación de un profesional senior de ventas SaaS que te ayudará a desarrollar tu estrategia de ventas, perfeccionar tu pitch y acelerar tu éxito."
+    },
+    "benefits": {
+      "title": "¿Por qué unirte?",
+      "experience": {
+        "title": "Experiencia startup real",
+        "description": "Adquiere experiencia práctica en el mundo startup, vendiendo un producto SaaS B2B a clientes reales."
+      },
+      "skills": {
+        "title": "Desarrolla habilidades de ventas",
+        "description": "Aprende el arte de la venta consultiva, manejo de objeciones y cierre de negocios en un entorno profesional."
+      },
+      "network": {
+        "title": "Construye tu red",
+        "description": "Conéctate con tomadores de decisiones empresariales y expande tu red profesional por toda Europa."
+      },
+      "flexibility": {
+        "title": "Horarios flexibles",
+        "description": "Trabaja en tus propios términos mientras equilibras tus estudios. Establece tus propios horarios y trabaja de forma remota."
+      },
+      "income": {
+        "title": "Potencial de ingresos significativo",
+        "description": "Con 40% de comisiones en planes de suscripción, tu potencial de ingresos está directamente ligado a tu esfuerzo y resultados."
+      },
+      "impact": {
+        "title": "Genera un impacto",
+        "description": "Ayuda a las empresas a ser accesibles y cumplir con el European Accessibility Act — una misión significativa."
+      }
+    },
+    "product": {
+      "title": "Sobre LumTrails",
+      "description": "LumTrails es una plataforma SaaS de vanguardia que ayuda a las empresas a cumplir con el European Accessibility Act (EAA). Nuestra solución cloud-native aprovecha una arquitectura moderna de microservicios — incluyendo motores dedicados de escaneo web y PDF, generación automática de reportes, e integraciones perfectas con Slack, Notion y GitHub. Impulsado por flujos de trabajo asistidos por IA, LumTrails permite a los equipos de desarrollo identificar rápidamente violaciones WCAG, generar reportes de cumplimiento profesionales y rastrear mejoras de accesibilidad a lo largo del tiempo. Es el producto perfecto para emprendedores apasionados por la tecnología, sostenibilidad e impacto social.",
+      "highlights": {
+        "ethical": "Producto ético que promueve la inclusión digital",
+        "eu": "Diseñado para cumplimiento UE (EAA 2025)",
+        "ai": "Escaneo y flujos de trabajo para desarrolladores potenciados por IA",
+        "modern": "SaaS cloud-native con arquitectura API-first"
+      }
+    },
+    "apply": {
+      "title": "¿Listo para aplicar?",
+      "description": "¿Interesado en nuestro programa de afiliados? Contáctanos con tu CV y una breve presentación explicando por qué serías perfecto para nosotros.",
+      "cta": "Enviar email",
+      "email": "hello@your-domain.com",
+      "note": "Las solicitudes se revisan de forma continua. Se animan las solicitudes anticipadas."
+    }
+  }
+}

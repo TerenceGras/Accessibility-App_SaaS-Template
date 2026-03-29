@@ -1,0 +1,21 @@
+fastapi==0.115.6
+uvicorn==0.32.1
+httpx==0.28.1
+pydantic==2.10.3
+slowapi==0.1.9
+python-multipart==0.0.18
+google-cloud-tasks==2.16.4
+google-auth==2.37.0
+google-cloud-firestore==2.19.0
+google-cloud-scheduler==2.14.0
+google-cloud-secret-manager==2.21.1
+google-cloud-storage==2.18.2
+firebase-admin==6.6.0
+PyPDF2==3.0.1
+
+# OpenTelemetry for distributed tracing
+opentelemetry-api==1.28.2
+opentelemetry-sdk==1.28.2
+opentelemetry-exporter-gcp-trace==1.8.0
+opentelemetry-instrumentation-fastapi==0.49b2
+opentelemetry-instrumentation-httpx==0.49b2

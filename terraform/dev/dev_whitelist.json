@@ -1,0 +1,6 @@
+{
+  "_comment": "Email whitelist for DEV environment access. Add authorized email addresses to the 'allowed_emails' array.",
+  "_updated": "2025-12-26",
+  "allowed_emails": [
+  ]
+}

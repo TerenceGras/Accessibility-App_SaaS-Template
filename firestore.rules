@@ -1,0 +1,80 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow authenticated users to read/write their own user profile (language preferences, etc.)
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Allow authenticated users to read/write their own scan results
+    match /scan_results/{scanId} {
+      allow read, write: if request.auth != null && request.auth.uid == resource.data.user_id;
+    }
+
+    // Allow authenticated users to read/write their own integrations
+    match /user_integrations/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Allow authenticated users to read their own integration logs
+    match /integration_logs/{logId} {
+      allow read: if request.auth != null && request.auth.uid == resource.data.user_id;
+      allow create: if request.auth != null;
+    }
+
+    // Allow service accounts (for the integration worker) to read/write integration data
+    match /user_integrations/{userId} {
+      allow read, write: if request.auth != null && request.auth.token.firebase.sign_in_provider == 'custom';
+    }
+
+    match /integration_logs/{logId} {
+      allow read, write: if request.auth != null && request.auth.token.firebase.sign_in_provider == 'custom';
+    }
+
+    match /scan_results/{scanId} {
+      allow read: if request.auth != null && request.auth.token.firebase.sign_in_provider == 'custom';
+    }
+
+    // Billing and subscription rules
+    // Allow authenticated users to read/write their own billing info
+    match /billing_info/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Allow authenticated users to read their own credit purchases
+    match /credit_purchases/{purchaseId} {
+      allow read: if request.auth != null && request.auth.uid == resource.data.user_id;
+      allow create: if request.auth != null && request.auth.uid == request.resource.data.user_id;
+    }
+
+    // Allow authenticated users to read their own credit usage history
+    match /credit_usage_history/{historyId} {
+      allow read: if request.auth != null && request.auth.uid == resource.data.user_id;
+      allow create: if request.auth != null && request.auth.uid == request.resource.data.user_id;
+    }
+
+    // Allow authenticated users to read their own credit usage daily summary (aggregated)
+    match /credit_usage_daily_summary/{summaryId} {
+      allow read: if request.auth != null && request.auth.uid == resource.data.user_id;
+    }
+
+    // Allow service accounts (pricing service) to write billing data
+    match /billing_info/{userId} {
+      allow read, write: if request.auth != null && request.auth.token.firebase.sign_in_provider == 'custom';
+    }
+
+    match /credit_purchases/{purchaseId} {
+      allow read, write: if request.auth != null && request.auth.token.firebase.sign_in_provider == 'custom';
+    }
+
+    match /credit_usage_history/{historyId} {
+      allow read, write: if request.auth != null && request.auth.token.firebase.sign_in_provider == 'custom';
+    }
+
+    // Default deny for all other documents
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

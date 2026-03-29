@@ -1,0 +1,7 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+google-cloud-firestore==2.19.0
+google-cloud-secret-manager==2.21.1
+google-cloud-tasks==2.16.4
+httpx==0.28.1
+pydantic==2.10.3

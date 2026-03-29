@@ -1,0 +1,67 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Helper function to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Helper function to check if user owns the resource
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Helper function to validate PDF file type and size (max 500MB)
+    function isValidPdf() {
+      return request.resource.contentType == 'application/pdf'
+        && request.resource.size < 500 * 1024 * 1024;
+    }
+    
+    // Helper function to validate image file type and size (max 10MB)
+    function isValidImage() {
+      return request.resource.contentType.matches('image/(jpeg|jpg|png|gif|webp)')
+        && request.resource.size < 10 * 1024 * 1024;
+    }
+    
+    // Helper function to validate report file (PDF, max 50MB)
+    function isValidReport() {
+      return request.resource.contentType == 'application/pdf'
+        && request.resource.size < 50 * 1024 * 1024;
+    }
+    
+    // PDF scan results - users can read/write their own files (PDFs only)
+    match /pdf-scans/{userId}/{allPaths=**} {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId) && isValidPdf();
+    }
+    
+    // Web scan screenshots - users can read/write their own files (images only)
+    match /web-scans/{userId}/{allPaths=**} {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId) && isValidImage();
+    }
+    
+    // Scan reports - users can read/write their own reports (PDFs only)
+    match /reports/{userId}/{allPaths=**} {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId) && isValidReport();
+    }
+    
+    // User uploads (PDFs only, max 500MB)
+    match /uploads/{userId}/{allPaths=**} {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId) && isValidPdf();
+    }
+    
+    // Public assets (logos, etc.) - anyone can read
+    match /public/{allPaths=**} {
+      allow read: if true;
+      allow write: if false; // Only via admin SDK
+    }
+    
+    // Default: deny all
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
